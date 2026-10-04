@@ -15,7 +15,7 @@
         $radio = $_GET["radio"];
         $altura = $_GET["altura"];
 
-        $volumen = (1/3*pi()*($radio*pow($radio, 2)*$altura));
+        $volumen = (1/3*pi()*(pow($radio, 2)*$altura));
 
         echo "El volumen es: " . $volumen;
     ?>
