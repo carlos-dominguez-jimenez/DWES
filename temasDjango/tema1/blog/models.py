@@ -2,25 +2,41 @@ from django.db import models
 from django.conf import settings
 from django.utils import timezone
 
-class Post(models.Model):
+class Animal(models.Model):
 
-    author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    Cuidador = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 
-    title = models.CharField(max_length=200)
+    Nombre = models.CharField(max_length=100)
+    
+    Tipo = models.CharField(max_length=200)
 
-    text = models.TextField()
+    def __str__(self):
 
-    created_date = models.DateTimeField(default=timezone.now)
+        return self.Nombre
+    
+class Protectora(models.Model):
 
-    published_date = models.DateTimeField(blank=True, null=True)
+    Nombre = models.CharField(max_length=200)
+
+    Descripcion = models.TextField()
+
+    Fecha_creacion = models.DateTimeField(default=timezone.now)
 
     def publish(self):
 
-        self.published_date = timezone.now()
+        self.Fecha_creacion = timezone.now()
 
         self.save()
 
     def __str__(self):
 
-        return self.title
+        return self.Nombre
+
+class Colaborador(models.Model):
+
+    Nombre = models.CharField(max_length=200)
+
+    Cargo = models.CharField(max_length=200)
+
+    Fecha_entrada_Protectora = models.DateTimeField(null=True)
 
