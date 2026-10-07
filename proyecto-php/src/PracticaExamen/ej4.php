@@ -71,9 +71,9 @@
 </head>
 <body>
     <form action="ej4.php" method="get">
-        Tienda 1: <input type="num" name="tienda1">
-        Tienda 2: <input type="num" name="tienda2">
-        Tienda 3: <input type="num" name="tienda3">
+        Tienda 1: <input type="num" name="tienda1"><br>
+        Tienda 2: <input type="num" name="tienda2"><br>
+        Tienda 3: <input type="num" name="tienda3"><br>
         <input type="submit" value="calcular">
     </form>
 
