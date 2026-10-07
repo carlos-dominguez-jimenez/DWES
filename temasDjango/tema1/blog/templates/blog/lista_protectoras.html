@@ -1,0 +1,8 @@
+<h1>Protectoras</h1>
+<ul>
+    {% for protectora in protectoras %}
+      <li>{{ protectora.Nombre }}: {{ protectora.Descripcion }} ({{ protectora.Fecha_creacion }})</li>
+    {% empty %}
+      <li>No hay protectoras.</li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,8 @@
+<h1>Colaboradores</h1>
+<ul>
+    {% for colaborador in colaboradores %}
+      <li>{{ colaborador.Nombre }} - {{ colaborador.Cargo }} (desde {{ colaborador.Fecha_entrada_Protectora }})</li>
+    {% empty %}
+      <li>No hay colaboradores.</li>
+    {% endfor %}
+</ul>
