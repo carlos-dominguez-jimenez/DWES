@@ -1,0 +1,15 @@
+<h1>Alumnos</h1>
+<table border="1">
+  <tr>
+    <th>Nombre</th>
+    <th>Edad</th>
+  </tr>
+  {% for alumno in alumnos %}
+  <tr>
+    <td>{{ alumno.nombre }}</td>
+    <td>{{ alumno.edad }}</td>
+  </tr>
+  {% empty %}
+  <tr><td colspan="2">No hay alumnos.</td></tr>
+  {% endfor %}
+</table>

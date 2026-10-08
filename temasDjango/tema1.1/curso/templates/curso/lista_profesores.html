@@ -1,0 +1,17 @@
+<h1>Profesores</h1>
+<table border="1">
+  <tr>
+    <th>Nombre</th>
+    <th>Edad</th>
+    <th>Estudios</th>
+  </tr>
+  {% for profesor in profesores %}
+  <tr>
+    <td>{{ profesor.nombre }}</td>
+    <td>{{ profesor.edad }}</td>
+    <td>{{ profesor.estudios }}</td>
+  </tr>
+  {% empty %}
+  <tr><td colspan="3">No hay profesores.</td></tr>
+  {% endfor %}
+</table>

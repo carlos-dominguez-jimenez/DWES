@@ -1,0 +1,17 @@
+<h1>Tipos de curso</h1>
+<table border="1">
+  <tr>
+    <th>Nombre</th>
+    <th>Horas</th>
+    <th>Días</th>
+  </tr>
+  {% for tipo in tipos %}
+  <tr>
+    <td>{{ tipo.nombre }}</td>
+    <td>{{ tipo.horas }}</td>
+    <td>{{ tipo.dias }}</td>
+  </tr>
+  {% empty %}
+  <tr><td colspan="3">No hay tipos de curso.</td></tr>
+  {% endfor %}
+</table>
