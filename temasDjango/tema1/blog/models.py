@@ -40,3 +40,6 @@ class Colaborador(models.Model):
 
     Fecha_entrada_Protectora = models.DateTimeField(null=True)
 
+    def __str__(self):
+
+        return self.Nombre

@@ -1,0 +1,8 @@
+<h1>Animales</h1>
+<u1>
+    {% for animal in animales %}
+      <li>{{ animal.Nombre }} - {{ animal.Tipo }} (cuidador: {{ animal.Cuidador }})</li>
+    {% empty %}
+      <li>No hay animales.</li>
+    {% endfor %}
+</u1>
