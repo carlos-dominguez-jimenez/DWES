@@ -23,15 +23,23 @@
         <input type="submit" value="Calcular">
     </form>
 
-    <?php
+    <?php        
+        if (isset($_GET["altura"]) && isset($_GET["daimetro"])) {
+
         $altura = $_GET["altura"];
         $diametro = $_GET["diametro"];
 
-        $radio = $diametro/2;
-        $volumen = pi() * pow($radio, 2) * $altura;
+        echo "<h2>El volumen es: " . calcularVolumen($altura, $diametro) . " cm³</h2>";
+        echo "<img src='cilindro.png' width='200' alt='Cilindro'>";
+        
+        }
 
-        echo "<h2>El volumen es: " . $volumen . " cm³</h2>";
-        echo "<img src='cilindro.png' width='200' alt='Cilindro'>"
+        function calcularVolumen (float $a, float $b) {
+            $radio = $b/2;
+        $volumen = pi() * pow($radio, 2) * $a;
+
+        return $volumen;
+        }
     ?>
 </body>
 </html>

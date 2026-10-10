@@ -1,6 +1,24 @@
 </head>
 
 <body>
+
+    <?php
+        function mostrarCombinacionGenerada (int $combinacion, int $serie) {
+            echo "<tr>";
+            echo "<td>Generada</td>";
+            echo "<td>$combinacion</td>";
+            echo "<td>$serie</td>";
+            echo "</tr>";
+        }
+
+        function mostrasCombinacionIntroducida(int $combinacion, int $serie) {
+            echo "<tr>";
+            echo "<td>Introducida</td>";
+            echo "<td>$combinacion</td>";
+            echo "<td>$serie</td>";
+            echo "</tr>";
+        }
+    ?>
     <form action="ej2.php" method="get">
         Combinación:
         <input type="number" name="n1" min="1" max="49" required>
@@ -42,33 +60,10 @@
                 <th>Serie</th>
             </tr>
 
-            <tr>
-                <td>Generada</td>
-                <td>
-                    <?php
-                    echo $generada;
-                    ?>
-                </td>
-                <td>
-                    <?php
-                    echo $serieGenerada;
-                    ?>
-                </td>
-            </tr>
-
-            <tr>
-                <td>Introducida</td>
-                <td>
-                    <?php
-                    echo $introducida;
-                    ?>
-                </td>
-                <td>
-                    <?php
-                    echo $serie;
-                    ?>
-                </td>
-            </tr>
+            <?php
+                mostrarCombinacionGenerada($generada, $serieGenerada);
+                mostrasCombinacionIntroducida($introducida, $serie);
+            ?>
         </table>
 
     <?php

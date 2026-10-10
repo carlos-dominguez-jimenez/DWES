@@ -14,6 +14,20 @@
 </head>
 <body>
 
+<?php
+    function calcularTiempo( float $alt, float $diam, float $cau) {
+        $radio = $diam/2;
+        $volumen = pi() * pow($radio, 2) * $alt;
+        $litros = $volumen/1000;
+
+        $totalTiempo = (int) round($litros / $cau);
+        $horas = intdiv($totalTiempo, 60);
+        $minutos = ($totalTiempo % 60);
+
+        echo "<h2>Tiempo de llenado: $horas h $minutos min</h2>";
+    }
+?>
+
 <h1>Calculo del volumen de un cilindro</h1>
 
 
@@ -30,16 +44,8 @@
             $diametro = $_GET["diametro"];
             $caudal = $_GET["caudal"];
 
-            $radio = $diametro/2;
-            $volumen = pi() * pow($radio, 2) * $altura;
-            $litros = $volumen/1000;
+            calcularTiempo($altura, $diametro, $caudal);
 
-            $totalTiempo = (int) round($litros / $caudal);
-            $horas = intdiv($totalTiempo, 60);
-            $minutos = ($totalTiempo % 60);
-
-            echo "<h2>Tiempo de llenado: $horas h $minutos min</h2>";
-            
         } else {
             echo "<h2>Introduce datos válidos</h2>";
         }
