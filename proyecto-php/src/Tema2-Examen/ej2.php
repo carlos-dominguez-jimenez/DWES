@@ -3,7 +3,7 @@
 <body>
 
     <?php
-        function mostrarCombinacionGenerada (int $combinacion, int $serie) {
+        function mostrarCombinacionGenerada ($combinacion, $serie) {
             echo "<tr>";
             echo "<td>Generada</td>";
             echo "<td>$combinacion</td>";
@@ -11,7 +11,7 @@
             echo "</tr>";
         }
 
-        function mostrasCombinacionIntroducida(int $combinacion, int $serie) {
+        function mostrasCombinacionIntroducida($combinacion, $serie) {
             echo "<tr>";
             echo "<td>Introducida</td>";
             echo "<td>$combinacion</td>";

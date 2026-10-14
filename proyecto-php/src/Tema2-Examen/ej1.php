@@ -24,7 +24,7 @@
     </form>
 
     <?php        
-        if (isset($_GET["altura"]) && isset($_GET["daimetro"])) {
+        if (isset($_GET["altura"]) && isset($_GET["diametro"])) {
 
         $altura = $_GET["altura"];
         $diametro = $_GET["diametro"];
@@ -36,7 +36,7 @@
 
         function calcularVolumen (float $a, float $b) {
             $radio = $b/2;
-        $volumen = pi() * pow($radio, 2) * $a;
+            $volumen = pi() * pow($radio, 2) * $a;
 
         return $volumen;
         }
