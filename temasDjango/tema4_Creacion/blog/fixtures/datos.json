@@ -1,0 +1,2768 @@
+[
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 3,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 3,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 3,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 3,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 2,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 2,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 2,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 2,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add proyecto",
+        "content_type": 10,
+        "codename": "add_proyecto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change proyecto",
+        "content_type": 10,
+        "codename": "change_proyecto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete proyecto",
+        "content_type": 10,
+        "codename": "delete_proyecto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view proyecto",
+        "content_type": 10,
+        "codename": "view_proyecto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add usuario",
+        "content_type": 12,
+        "codename": "add_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change usuario",
+        "content_type": 12,
+        "codename": "change_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete usuario",
+        "content_type": 12,
+        "codename": "delete_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view usuario",
+        "content_type": 12,
+        "codename": "view_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add tarea",
+        "content_type": 11,
+        "codename": "add_tarea"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change tarea",
+        "content_type": 11,
+        "codename": "change_tarea"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete tarea",
+        "content_type": 11,
+        "codename": "delete_tarea"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view tarea",
+        "content_type": 11,
+        "codename": "view_tarea"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add etiqueta",
+        "content_type": 9,
+        "codename": "add_etiqueta"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change etiqueta",
+        "content_type": 9,
+        "codename": "change_etiqueta"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete etiqueta",
+        "content_type": 9,
+        "codename": "delete_etiqueta"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view etiqueta",
+        "content_type": 9,
+        "codename": "view_etiqueta"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add asignacion tarea",
+        "content_type": 7,
+        "codename": "add_asignaciontarea"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change asignacion tarea",
+        "content_type": 7,
+        "codename": "change_asignaciontarea"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete asignacion tarea",
+        "content_type": 7,
+        "codename": "delete_asignaciontarea"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view asignacion tarea",
+        "content_type": 7,
+        "codename": "view_asignaciontarea"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add comentario",
+        "content_type": 8,
+        "codename": "add_comentario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change comentario",
+        "content_type": 8,
+        "codename": "change_comentario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete comentario",
+        "content_type": 8,
+        "codename": "delete_comentario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view comentario",
+        "content_type": 8,
+        "codename": "view_comentario"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$6q8cIWbh3EUsa8e09Z9gT7$hBad3ZC7Xztr5pel4TjO5DZvqu9u415yFUJUqrotRwY=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "carlos",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-10-18T00:52:16.832",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "blog",
+        "model": "asignaciontarea"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "blog",
+        "model": "comentario"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "blog",
+        "model": "etiqueta"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "blog",
+        "model": "proyecto"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "blog",
+        "model": "tarea"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "blog",
+        "model": "usuario"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 1,
+    "fields": {
+        "nombre": "Águeda Ruiz Ariza",
+        "correo_electronico": "osolera@example.org",
+        "contrasena": "774@Eyl!(U",
+        "fecha_registro": "2026-10-18T00:52:17.925"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 2,
+    "fields": {
+        "nombre": "Luz de Navarrete",
+        "correo_electronico": "balduino82@example.org",
+        "contrasena": "1@G2S_Pv*3",
+        "fecha_registro": "2026-10-18T00:52:17.937"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 3,
+    "fields": {
+        "nombre": "Jennifer Vallejo Aroca",
+        "correo_electronico": "malegria@example.net",
+        "contrasena": "#6kC&Zjb1J",
+        "fecha_registro": "2026-10-18T00:52:17.945"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 4,
+    "fields": {
+        "nombre": "Pancho Zaragoza Ferrero",
+        "correo_electronico": "tgalvan@example.com",
+        "contrasena": "*g9oLh5gP!",
+        "fecha_registro": "2026-10-18T00:52:17.954"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 5,
+    "fields": {
+        "nombre": "Jose Luis Morán Criado",
+        "correo_electronico": "bayonapriscila@example.com",
+        "contrasena": "fZA(0Ej%u7",
+        "fecha_registro": "2026-10-18T00:52:17.963"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 6,
+    "fields": {
+        "nombre": "Francisco Figueroa Burgos",
+        "correo_electronico": "vicenta68@example.org",
+        "contrasena": "^O3)Mbfr6n",
+        "fecha_registro": "2026-10-18T00:52:17.972"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 7,
+    "fields": {
+        "nombre": "Virginia Rey-Acero",
+        "correo_electronico": "evangelinacanals@example.net",
+        "contrasena": "^2N5V2fg_l",
+        "fecha_registro": "2026-10-18T00:52:17.980"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 8,
+    "fields": {
+        "nombre": "Olalla Gabaldón Pinto",
+        "correo_electronico": "alonsoalmagro@example.net",
+        "contrasena": "@5IdYPh_bx",
+        "fecha_registro": "2026-10-18T00:52:17.991"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 9,
+    "fields": {
+        "nombre": "Humberto Elorza Izaguirre",
+        "correo_electronico": "ntorres@example.com",
+        "contrasena": "pk4WBDg$)U",
+        "fecha_registro": "2026-10-18T00:52:18.000"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 10,
+    "fields": {
+        "nombre": "María Bru Fernández",
+        "correo_electronico": "alemanolegario@example.org",
+        "contrasena": "Kjj*r8Noy+",
+        "fecha_registro": "2026-10-18T00:52:18.010"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 11,
+    "fields": {
+        "nombre": "Dionisio Figueras",
+        "correo_electronico": "lbarcelo@example.com",
+        "contrasena": "$AtxZovU#2",
+        "fecha_registro": "2026-10-18T00:52:18.018"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 12,
+    "fields": {
+        "nombre": "Saturnino Gracia Rueda",
+        "correo_electronico": "gregorio11@example.org",
+        "contrasena": "l+2P8V@d+M",
+        "fecha_registro": "2026-10-18T00:52:18.027"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 13,
+    "fields": {
+        "nombre": "Isaías Valentín Diez",
+        "correo_electronico": "sabas69@example.net",
+        "contrasena": "C&R69QHx%I",
+        "fecha_registro": "2026-10-18T00:52:18.037"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 14,
+    "fields": {
+        "nombre": "Sigfrido Marciano Carbajo Jáuregui",
+        "correo_electronico": "espadaisabel@example.org",
+        "contrasena": "M2G5xGYo(h",
+        "fecha_registro": "2026-10-18T00:52:18.050"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 15,
+    "fields": {
+        "nombre": "Brígida Barranco Peralta",
+        "correo_electronico": "luis78@example.com",
+        "contrasena": "_v4vAbpy#%",
+        "fecha_registro": "2026-10-18T00:52:18.060"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 16,
+    "fields": {
+        "nombre": "Ester Elisabet Alemán Larrea",
+        "correo_electronico": "zapataserafina@example.org",
+        "contrasena": "#5*&P7zh2(",
+        "fecha_registro": "2026-10-18T00:52:18.070"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 17,
+    "fields": {
+        "nombre": "Tiburcio Luna-Benet",
+        "correo_electronico": "rosariolinares@example.org",
+        "contrasena": "!m%8PVoXm)",
+        "fecha_registro": "2026-10-18T00:52:18.080"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 18,
+    "fields": {
+        "nombre": "Salvador Arce Huerta",
+        "correo_electronico": "roberto15@example.net",
+        "contrasena": "%iqHT%hT0$",
+        "fecha_registro": "2026-10-18T00:52:18.091"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 19,
+    "fields": {
+        "nombre": "Ramón Antón",
+        "correo_electronico": "rufinocatalan@example.net",
+        "contrasena": "JNBo_lfo&4",
+        "fecha_registro": "2026-10-18T00:52:18.103"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 20,
+    "fields": {
+        "nombre": "Candelaria Farré-Maza",
+        "correo_electronico": "jpardo@example.org",
+        "contrasena": "s)6WsXO6Gn",
+        "fecha_registro": "2026-10-18T00:52:18.116"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 21,
+    "fields": {
+        "nombre": "Eloísa Montero Vicente",
+        "correo_electronico": "sara90@example.com",
+        "contrasena": "Y@6H0Oz&B(",
+        "fecha_registro": "2026-10-18T00:52:18.134"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 22,
+    "fields": {
+        "nombre": "Teo Oliva Benítez",
+        "correo_electronico": "ipalomar@example.org",
+        "contrasena": "c7*XpOp_*N",
+        "fecha_registro": "2026-10-18T00:52:18.146"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 23,
+    "fields": {
+        "nombre": "Pancho Villena-Tejera",
+        "correo_electronico": "zcifuentes@example.org",
+        "contrasena": "_SiUMnxzB4",
+        "fecha_registro": "2026-10-18T00:52:18.159"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 24,
+    "fields": {
+        "nombre": "Maite Echevarría Niño",
+        "correo_electronico": "bertocompany@example.net",
+        "contrasena": "%k^8o)WmJ+",
+        "fecha_registro": "2026-10-18T00:52:18.173"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 25,
+    "fields": {
+        "nombre": "Emigdio Sanz Conde",
+        "correo_electronico": "agustialmudena@example.net",
+        "contrasena": "%G*eS7LLf7",
+        "fecha_registro": "2026-10-18T00:52:18.189"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 26,
+    "fields": {
+        "nombre": "Noa Cano-Sans",
+        "correo_electronico": "barcenaadelardo@example.net",
+        "contrasena": "5x0*50CsP#",
+        "fecha_registro": "2026-10-18T00:52:18.201"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 27,
+    "fields": {
+        "nombre": "Ruben del Mercader",
+        "correo_electronico": "msabater@example.com",
+        "contrasena": "8ZLoZ3j@^p",
+        "fecha_registro": "2026-10-18T00:52:18.215"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 28,
+    "fields": {
+        "nombre": "Elpidio Ciro Vaquero Reina",
+        "correo_electronico": "conradocarrion@example.net",
+        "contrasena": "Y^6$!4TjYb",
+        "fecha_registro": "2026-10-18T00:52:18.228"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 29,
+    "fields": {
+        "nombre": "Anastasio Héctor Corbacho Collado",
+        "correo_electronico": "josue30@example.net",
+        "contrasena": "wXr9V_5v&@",
+        "fecha_registro": "2026-10-18T00:52:18.240"
+    }
+},
+{
+    "model": "blog.usuario",
+    "pk": 30,
+    "fields": {
+        "nombre": "Ámbar Arnal Díaz",
+        "correo_electronico": "chuypeiro@example.org",
+        "contrasena": "T1WWhNwt!C",
+        "fecha_registro": "2026-10-18T00:52:18.253"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 1,
+    "fields": {
+        "usuario": 28,
+        "tarea": 30,
+        "observaciones": "Fuerza público menor río ahora importancia vuelve.",
+        "fecha_asignacion": "2026-10-18T00:52:19.175"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 2,
+    "fields": {
+        "usuario": 8,
+        "tarea": 18,
+        "observaciones": "Cómo finalmente pasó suelo.",
+        "fecha_asignacion": "2026-10-18T00:52:19.185"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 3,
+    "fields": {
+        "usuario": 24,
+        "tarea": 9,
+        "observaciones": "París calle medidas gobierno.",
+        "fecha_asignacion": "2026-10-18T00:52:19.199"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 4,
+    "fields": {
+        "usuario": 12,
+        "tarea": 4,
+        "observaciones": "Amor otras presenta noviembre.",
+        "fecha_asignacion": "2026-10-18T00:52:19.209"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 5,
+    "fields": {
+        "usuario": 2,
+        "tarea": 14,
+        "observaciones": "Hechos demasiado donde próximo fútbol grandes.",
+        "fecha_asignacion": "2026-10-18T00:52:19.219"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 6,
+    "fields": {
+        "usuario": 16,
+        "tarea": 10,
+        "observaciones": "Fuentes guerra allí anterior quién.",
+        "fecha_asignacion": "2026-10-18T00:52:19.228"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 7,
+    "fields": {
+        "usuario": 18,
+        "tarea": 7,
+        "observaciones": "Contra tipos rosa respecto podía.",
+        "fecha_asignacion": "2026-10-18T00:52:19.237"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 8,
+    "fields": {
+        "usuario": 14,
+        "tarea": 11,
+        "observaciones": "Pesar mil humano sé.",
+        "fecha_asignacion": "2026-10-18T00:52:19.246"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 9,
+    "fields": {
+        "usuario": 19,
+        "tarea": 27,
+        "observaciones": "Quizá fueron muerto sola vamos recuerdo.",
+        "fecha_asignacion": "2026-10-18T00:52:19.273"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 10,
+    "fields": {
+        "usuario": 5,
+        "tarea": 21,
+        "observaciones": "Marcha ministerio capital.",
+        "fecha_asignacion": "2026-10-18T00:52:19.282"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 11,
+    "fields": {
+        "usuario": 20,
+        "tarea": 11,
+        "observaciones": "Fuentes julio hacia paciente hermano.",
+        "fecha_asignacion": "2026-10-18T00:52:19.291"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 12,
+    "fields": {
+        "usuario": 9,
+        "tarea": 3,
+        "observaciones": "Suelo fue tema cuyo relaciones prueba.",
+        "fecha_asignacion": "2026-10-18T00:52:19.300"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 13,
+    "fields": {
+        "usuario": 22,
+        "tarea": 12,
+        "observaciones": "Así caso llama conjunto políticos.",
+        "fecha_asignacion": "2026-10-18T00:52:19.309"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 14,
+    "fields": {
+        "usuario": 29,
+        "tarea": 22,
+        "observaciones": "Forma media cuya entonces estos especie primer.",
+        "fecha_asignacion": "2026-10-18T00:52:19.318"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 15,
+    "fields": {
+        "usuario": 28,
+        "tarea": 14,
+        "observaciones": "Últimos sido final ocasiones.",
+        "fecha_asignacion": "2026-10-18T00:52:19.328"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 16,
+    "fields": {
+        "usuario": 9,
+        "tarea": 20,
+        "observaciones": "Final resulta hechos apenas pesar.",
+        "fecha_asignacion": "2026-10-18T00:52:19.337"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 17,
+    "fields": {
+        "usuario": 15,
+        "tarea": 12,
+        "observaciones": "Serán antes podía norte según c cosas él.",
+        "fecha_asignacion": "2026-10-18T00:52:19.346"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 18,
+    "fields": {
+        "usuario": 16,
+        "tarea": 17,
+        "observaciones": "Tras diez quedó vuelta.",
+        "fecha_asignacion": "2026-10-18T00:52:19.355"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 19,
+    "fields": {
+        "usuario": 23,
+        "tarea": 28,
+        "observaciones": "Figura unidad precio ejército embargo cargo ahí.",
+        "fecha_asignacion": "2026-10-18T00:52:19.364"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 20,
+    "fields": {
+        "usuario": 13,
+        "tarea": 2,
+        "observaciones": "Supuesto diciembre pasado consecuencia ahora.",
+        "fecha_asignacion": "2026-10-18T00:52:19.374"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 21,
+    "fields": {
+        "usuario": 24,
+        "tarea": 13,
+        "observaciones": "París estuvo qué.",
+        "fecha_asignacion": "2026-10-18T00:52:19.384"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 22,
+    "fields": {
+        "usuario": 28,
+        "tarea": 27,
+        "observaciones": "Ni s ocho niños formación jefe peor diciembre.",
+        "fecha_asignacion": "2026-10-18T00:52:19.393"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 23,
+    "fields": {
+        "usuario": 29,
+        "tarea": 27,
+        "observaciones": "García quería muchos sector buenos cinco mano universidad.",
+        "fecha_asignacion": "2026-10-18T00:52:19.403"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 24,
+    "fields": {
+        "usuario": 26,
+        "tarea": 26,
+        "observaciones": "Corte consumo llegar menos socialista ya.",
+        "fecha_asignacion": "2026-10-18T00:52:19.414"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 25,
+    "fields": {
+        "usuario": 7,
+        "tarea": 2,
+        "observaciones": "Luis dirección presente elecciones padres era.",
+        "fecha_asignacion": "2026-10-18T00:52:19.425"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 26,
+    "fields": {
+        "usuario": 22,
+        "tarea": 22,
+        "observaciones": "Suficiente cultural llama apenas un formación o.",
+        "fecha_asignacion": "2026-10-18T00:52:19.435"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 27,
+    "fields": {
+        "usuario": 11,
+        "tarea": 12,
+        "observaciones": "Político cuerpo ha o m amigos.",
+        "fecha_asignacion": "2026-10-18T00:52:19.444"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 28,
+    "fields": {
+        "usuario": 4,
+        "tarea": 7,
+        "observaciones": "Abril vuelve estamos poner chile después quizá.",
+        "fecha_asignacion": "2026-10-18T00:52:19.455"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 29,
+    "fields": {
+        "usuario": 14,
+        "tarea": 26,
+        "observaciones": "Oro orden parece riesgo.",
+        "fecha_asignacion": "2026-10-18T00:52:19.465"
+    }
+},
+{
+    "model": "blog.asignaciontarea",
+    "pk": 30,
+    "fields": {
+        "usuario": 18,
+        "tarea": 12,
+        "observaciones": "Veces diciembre encima pequeño clase futuro.",
+        "fecha_asignacion": "2026-10-18T00:52:19.474"
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 1,
+    "fields": {
+        "nombre": "Triple-buffered local open architecture",
+        "descripcion": "Quienes francia actual santa humano civil abril. Pasado fondo ocasiones serie.\nNueva resulta seis. Peor crecimiento su pocos hora atrás. Modelo habían miedo ha universidad vuelve diferentes.",
+        "duracion_estimada": 12.8,
+        "fecha_inicio": "2026-04-18",
+        "fecha_finalizacion": "2026-06-09",
+        "creador": 9,
+        "proyectos_asignados": [
+            20,
+            22,
+            24
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 2,
+    "fields": {
+        "nombre": "Expanded full-range orchestration",
+        "descripcion": "Pensar cosa parece libre especialmente porque mucho.\nCuestión nuevo producto. Españoles línea siguiente comunicación. Eso tanto tenemos médico quedó.",
+        "duracion_estimada": 22.4,
+        "fecha_inicio": "2026-07-13",
+        "fecha_finalizacion": "2026-09-10",
+        "creador": 19,
+        "proyectos_asignados": [
+            10,
+            18,
+            28
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 3,
+    "fields": {
+        "nombre": "Object-based non-volatile implementation",
+        "descripcion": "Materia destino aun nuestra. Solo total cuanto esa fue parecía asociación.",
+        "duracion_estimada": 35.2,
+        "fecha_inicio": "2026-04-20",
+        "fecha_finalizacion": "2026-06-20",
+        "creador": 24,
+        "proyectos_asignados": [
+            6,
+            14,
+            24
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 4,
+    "fields": {
+        "nombre": "Implemented composite solution",
+        "descripcion": "Que permite información cuanto español carrera. Él solución también nivel vista. Perdido españoles hemos don pocos sería sea sentido. Rafael oro trabajar tiempos camino diversas esas.",
+        "duracion_estimada": 61.7,
+        "fecha_inicio": "2026-06-13",
+        "fecha_finalizacion": "2026-11-06",
+        "creador": 10,
+        "proyectos_asignados": [
+            4,
+            5,
+            20
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 5,
+    "fields": {
+        "nombre": "Multi-channeled non-volatile software",
+        "descripcion": "Prueba interior estudio actitud junio contra libertad. Dolor demasiado sistema aun.\nPrimeras prensa hechos policía. Miedo que grupos última tienen. Antonio población solución durante señaló.",
+        "duracion_estimada": 35.5,
+        "fecha_inicio": "2026-01-17",
+        "fecha_finalizacion": "2026-02-06",
+        "creador": 9,
+        "proyectos_asignados": [
+            1,
+            8,
+            20
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 6,
+    "fields": {
+        "nombre": "Visionary regional instruction set",
+        "descripcion": "Estilo sangre muchos. I quería televisión. Primero fuerza menor enfermedad ante aspectos.",
+        "duracion_estimada": 81.1,
+        "fecha_inicio": "2025-12-03",
+        "fecha_finalizacion": "2025-12-29",
+        "creador": 13,
+        "proyectos_asignados": [
+            3,
+            10,
+            16
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 7,
+    "fields": {
+        "nombre": "Programmable composite middleware",
+        "descripcion": "Últimos embargo suerte siquiera reunión valores primeras. Función señor experiencia encuentra muerto. Nombre empresas considera elecciones comisión.",
+        "duracion_estimada": 93.4,
+        "fecha_inicio": "2026-05-25",
+        "fecha_finalizacion": "2026-08-16",
+        "creador": 17,
+        "proyectos_asignados": [
+            4,
+            5,
+            12
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 8,
+    "fields": {
+        "nombre": "Upgradable multimedia groupware",
+        "descripcion": "Era paso propuesta p con. Nuevas pese dos volvió dejó sino.\nHabían aquellos carrera nuestro llegar deben.",
+        "duracion_estimada": 75.6,
+        "fecha_inicio": "2026-05-31",
+        "fecha_finalizacion": "2026-06-12",
+        "creador": 6,
+        "proyectos_asignados": [
+            2,
+            8,
+            26
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 9,
+    "fields": {
+        "nombre": "Up-sized bi-directional matrix",
+        "descripcion": "Elecciones pero serán mirada peso unidad medida. Deja mayor a él habría.\nHacerlo pues hechos algo. Debe cama grado francisco condiciones aumento. Mes social película luz enfermedad.",
+        "duracion_estimada": 54.5,
+        "fecha_inicio": "2025-11-08",
+        "fecha_finalizacion": "2026-05-15",
+        "creador": 20,
+        "proyectos_asignados": [
+            13,
+            16,
+            25
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 10,
+    "fields": {
+        "nombre": "Managed maximized emulation",
+        "descripcion": "México sentido por nuestras pregunta situación podrá. Llama he ser diciembre. Partir estudios sido sola país cabo.",
+        "duracion_estimada": 88.1,
+        "fecha_inicio": "2026-01-15",
+        "fecha_finalizacion": "2026-02-05",
+        "creador": 30,
+        "proyectos_asignados": [
+            7,
+            17,
+            26
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 11,
+    "fields": {
+        "nombre": "Centralized 3rdgeneration Internet solution",
+        "descripcion": "Ideas suerte modelo tierra precio nuestro. Instituciones marco servicio vez.\nSólo julio acción posibilidades. Tribunal debe eran tema estar.\nSolo haciendo informe clase.",
+        "duracion_estimada": 34.9,
+        "fecha_inicio": "2026-04-10",
+        "fecha_finalizacion": "2026-05-13",
+        "creador": 10,
+        "proyectos_asignados": [
+            5,
+            7,
+            22
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 12,
+    "fields": {
+        "nombre": "Synergistic demand-driven open architecture",
+        "descripcion": "Difícil volver suficiente septiembre. México seguridad afirmó jorge favor corte.\nGrande tarde formación sus. Efectos juez mejores.",
+        "duracion_estimada": 70.9,
+        "fecha_inicio": "2026-06-12",
+        "fecha_finalizacion": "2026-12-12",
+        "creador": 6,
+        "proyectos_asignados": [
+            19,
+            20,
+            22
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 13,
+    "fields": {
+        "nombre": "Streamlined hybrid open architecture",
+        "descripcion": "Sol siendo y viejo sin. Humanos operación y sociedad.\nIr dios parecía dan democracia. Partir tipo punto méxico sector hay cuarto. Oro resulta cosa buscar y.",
+        "duracion_estimada": 48.4,
+        "fecha_inicio": "2025-11-08",
+        "fecha_finalizacion": "2026-02-17",
+        "creador": 9,
+        "proyectos_asignados": [
+            1,
+            12,
+            15
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 14,
+    "fields": {
+        "nombre": "Integrated local architecture",
+        "descripcion": "Luis silencio un hubiera lado.\nM centros peor. Electoral origen valor.\nDías parte juez fuera pasó paciente. Otro futuro sido torno. Amor c iglesia única quiero. Entre sólo tarde.",
+        "duracion_estimada": 98.9,
+        "fecha_inicio": "2026-03-17",
+        "fecha_finalizacion": "2026-08-22",
+        "creador": 14,
+        "proyectos_asignados": [
+            12,
+            19,
+            27
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 15,
+    "fields": {
+        "nombre": "Ameliorated neutral Local Area Network",
+        "descripcion": "Manos sociedad consumo político volver electoral. Haber tiene baja social participación etapa máximo. Vida cuestión dijo vista.",
+        "duracion_estimada": 97.9,
+        "fecha_inicio": "2025-11-03",
+        "fecha_finalizacion": "2025-11-26",
+        "creador": 2,
+        "proyectos_asignados": [
+            20,
+            25,
+            29
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 16,
+    "fields": {
+        "nombre": "Front-line bi-directional archive",
+        "descripcion": "Crisis tarde carne encuentran estuvo condiciones. Fuego pesar texto. Allá atrás económico próximo pregunta atrás.",
+        "duracion_estimada": 70.5,
+        "fecha_inicio": "2025-10-28",
+        "fecha_finalizacion": "2026-03-22",
+        "creador": 23,
+        "proyectos_asignados": [
+            10,
+            13,
+            19
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 17,
+    "fields": {
+        "nombre": "Versatile user-facing info-mediaries",
+        "descripcion": "Calle serán entrar dios va. Poder calidad afirmó texto lejos b puntos. Pronto mundial mi pacientes frente muerto.",
+        "duracion_estimada": 8.3,
+        "fecha_inicio": "2025-10-25",
+        "fecha_finalizacion": "2026-02-07",
+        "creador": 18,
+        "proyectos_asignados": [
+            9,
+            11,
+            27
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 18,
+    "fields": {
+        "nombre": "Polarized explicit encoding",
+        "descripcion": "Prueba aun mismos usted nombre. Otro gonzález gracias historia.\nManera distintas sueño riesgo millones ya. Menos construcción largo visto datos puede encuentro. Sin conseguir dio carácter.",
+        "duracion_estimada": 31.3,
+        "fecha_inicio": "2026-02-22",
+        "fecha_finalizacion": "2026-03-17",
+        "creador": 18,
+        "proyectos_asignados": [
+            14,
+            16,
+            26
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 19,
+    "fields": {
+        "nombre": "Stand-alone zero administration knowledgebase",
+        "descripcion": "Régimen cada modelo padres manera también. Plan público hasta embargo diez. Sector mejores policía sistemas supuesto estados varios.",
+        "duracion_estimada": 40.2,
+        "fecha_inicio": "2026-09-22",
+        "fecha_finalizacion": "2027-04-04",
+        "creador": 23,
+        "proyectos_asignados": [
+            6,
+            9,
+            14
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 20,
+    "fields": {
+        "nombre": "Vision-oriented reciprocal algorithm",
+        "descripcion": "Condiciones llevar marco poco próximo demás es. Les después contra calidad dólares que.\nMar derecha diferentes antonio mar. Premio única estamos pequeño favor corte régimen.",
+        "duracion_estimada": 82.0,
+        "fecha_inicio": "2026-07-27",
+        "fecha_finalizacion": "2026-08-18",
+        "creador": 8,
+        "proyectos_asignados": [
+            3,
+            11,
+            25
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 21,
+    "fields": {
+        "nombre": "Synergistic methodical policy",
+        "descripcion": "Ministerio producción primer tú. Tenía ahora pequeña considera.\nSiguiente salud valor niveles superior momento entre interés.",
+        "duracion_estimada": 97.7,
+        "fecha_inicio": "2026-07-06",
+        "fecha_finalizacion": "2026-11-01",
+        "creador": 25,
+        "proyectos_asignados": [
+            10,
+            13,
+            20
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 22,
+    "fields": {
+        "nombre": "Visionary 3rdgeneration knowledgebase",
+        "descripcion": "Negro formas medida corazón mañana. Dentro niveles ejemplo esos. Conocer elementos estamos.",
+        "duracion_estimada": 64.2,
+        "fecha_inicio": "2026-09-17",
+        "fecha_finalizacion": "2027-02-07",
+        "creador": 28,
+        "proyectos_asignados": [
+            5,
+            8,
+            29
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 23,
+    "fields": {
+        "nombre": "Re-engineered foreground support",
+        "descripcion": "Sistema niño esta primeros salir primero población. Obra alrededor libertad. Ahí ii equipo momento mí también agua.",
+        "duracion_estimada": 38.4,
+        "fecha_inicio": "2026-04-24",
+        "fecha_finalizacion": "2026-09-07",
+        "creador": 11,
+        "proyectos_asignados": [
+            3,
+            13,
+            19
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 24,
+    "fields": {
+        "nombre": "Enterprise-wide non-volatile matrices",
+        "descripcion": "Intereses oro fuerza segundo chile industria baja central. Posibilidades parece diez ciencia.",
+        "duracion_estimada": 17.1,
+        "fecha_inicio": "2026-01-26",
+        "fecha_finalizacion": "2026-03-22",
+        "creador": 29,
+        "proyectos_asignados": [
+            10,
+            24,
+            25
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 25,
+    "fields": {
+        "nombre": "Switchable high-level paradigm",
+        "descripcion": "Costa habían ir carácter. Fue necesario hacerlo conseguir. Martín música era realizar hizo noche.\nSiendo gran guerra. Psoe tipos qué palabra lejos sangre. Sido saber antes esas formación deseo u.",
+        "duracion_estimada": 51.6,
+        "fecha_inicio": "2026-08-22",
+        "fecha_finalizacion": "2026-12-29",
+        "creador": 28,
+        "proyectos_asignados": [
+            1,
+            11,
+            30
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 26,
+    "fields": {
+        "nombre": "Open-architected full-range attitude",
+        "descripcion": "Precisamente estoy políticos. Pesar principales aquellas dice.\nPaíses población siguientes menor. Pocos naturaleza mercado amigo aire. Profesional comenzó hospital exterior últimos cambios.",
+        "duracion_estimada": 23.7,
+        "fecha_inicio": "2026-03-26",
+        "fecha_finalizacion": "2026-05-22",
+        "creador": 26,
+        "proyectos_asignados": [
+            12,
+            14,
+            17
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 27,
+    "fields": {
+        "nombre": "Focused 24/7 database",
+        "descripcion": "Cerca hizo partir marco derechos pronto. Llega voy términos varias necesario película. Sociales luego dan mercado solamente semanas resto. Ello puso rosa dar martín términos mundo.",
+        "duracion_estimada": 80.4,
+        "fecha_inicio": "2026-03-09",
+        "fecha_finalizacion": "2026-08-15",
+        "creador": 17,
+        "proyectos_asignados": [
+            10,
+            27,
+            30
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 28,
+    "fields": {
+        "nombre": "Customizable bandwidth-monitored hub",
+        "descripcion": "Gracias después proyectos sueño casi esta rey. Banco usted jóvenes niveles octubre programa. Baja entrar aún mejores. Claro proceso gran quiero constitución mismo.",
+        "duracion_estimada": 41.4,
+        "fecha_inicio": "2026-03-05",
+        "fecha_finalizacion": "2026-07-17",
+        "creador": 18,
+        "proyectos_asignados": [
+            1,
+            5,
+            8
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 29,
+    "fields": {
+        "nombre": "Quality-focused system-worthy moderator",
+        "descripcion": "García dicho zonas podía puedo obras torno. Precisamente última decía manos alto. Mayoría mantener garcía armas allá cuatro.\nIr producción llegar.",
+        "duracion_estimada": 44.3,
+        "fecha_inicio": "2026-04-09",
+        "fecha_finalizacion": "2026-07-06",
+        "creador": 22,
+        "proyectos_asignados": [
+            9,
+            13,
+            30
+        ]
+    }
+},
+{
+    "model": "blog.proyecto",
+    "pk": 30,
+    "fields": {
+        "nombre": "Face-to-face cohesive instruction set",
+        "descripcion": "Siguiente naturaleza les mil. Ahí por américa aire desarrollo económica libros. Poco datos según pocos nuevos mantener.",
+        "duracion_estimada": 16.3,
+        "fecha_inicio": "2026-05-07",
+        "fecha_finalizacion": "2026-07-04",
+        "creador": 15,
+        "proyectos_asignados": [
+            21,
+            25,
+            26
+        ]
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 1,
+    "fields": {
+        "titulo": "Pública comercio torno.",
+        "descripcion": "Compañía rodríguez primer. Unidad d ocho unidos manos. Unas experiencia posición. Le hoy viejo diferencia vio datos.",
+        "prioridad": 2,
+        "estado": "Progreso",
+        "completada": false,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "07:15:00.311",
+        "creador": 6,
+        "proyecto": 28
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 2,
+    "fields": {
+        "titulo": "Nada verdad antes calidad dirección.",
+        "descripcion": "Pasado sigue ayuda problema. Música partir puso josé carlos espera empresas. Meses ellos costa verdad cámara.",
+        "prioridad": 5,
+        "estado": "Progreso",
+        "completada": false,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "21:48:42.799",
+        "creador": 6,
+        "proyecto": 26
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 3,
+    "fields": {
+        "titulo": "Consecuencia realidad estados quedó.",
+        "descripcion": "Buena industria casi con tribunal ideas. Pasa pasa dado temas. Vamos donde jefe único.\nMucha plazo prensa. Boca suerte b sólo padres comunidad función. Iglesia podría grupo clase.",
+        "prioridad": 2,
+        "estado": "Progreso",
+        "completada": false,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "23:56:10.591",
+        "creador": 8,
+        "proyecto": 14
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 4,
+    "fields": {
+        "titulo": "Quizá padres semana son posición.",
+        "descripcion": "Así situación especie unas volver contra. Momento acción llegar ocasión música. Miedo podría llegó muchas fondo programa sí.",
+        "prioridad": 3,
+        "estado": "Progreso",
+        "completada": false,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "04:15:32.387",
+        "creador": 29,
+        "proyecto": 12
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 5,
+    "fields": {
+        "titulo": "Texto josé pie seguridad.",
+        "descripcion": "Suelo región habían cuerpo riesgo. Después septiembre gracias voluntad momento alta. Tales encima carlos habían.",
+        "prioridad": 2,
+        "estado": "Progreso",
+        "completada": false,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "08:46:57.438",
+        "creador": 18,
+        "proyecto": 25
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 6,
+    "fields": {
+        "titulo": "Puerto carlos estados.",
+        "descripcion": "Enero española muerto precio pregunta pública política. Asociación relación asimismo educación punto espera.",
+        "prioridad": 3,
+        "estado": "Completada",
+        "completada": true,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "12:34:03.869",
+        "creador": 28,
+        "proyecto": 10
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 7,
+    "fields": {
+        "titulo": "Por reunión cargo curso.",
+        "descripcion": "Ningún campo hacen tribunal modelo. Cambio tratamiento realidad año empresas. Años hacen programas habían capacidad.",
+        "prioridad": 3,
+        "estado": "Completada",
+        "completada": true,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "13:13:58.036",
+        "creador": 15,
+        "proyecto": 30
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 8,
+    "fields": {
+        "titulo": "Hubo tarde palabras me.",
+        "descripcion": "Pasa hicieron grande lleva. Productos civil semana cosa. Quiero afirmó gran medio.",
+        "prioridad": 3,
+        "estado": "Pendiente",
+        "completada": false,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "17:02:21.835",
+        "creador": 24,
+        "proyecto": 16
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 9,
+    "fields": {
+        "titulo": "Años cuba.",
+        "descripcion": "Cierta dirección uno tenemos región países políticas. Vuelve da sala empresa sabía quedó secretario.\nNecesario civil solución tú mejor soy. Serán dicen tres río.",
+        "prioridad": 1,
+        "estado": "Completada",
+        "completada": true,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "01:43:54.783",
+        "creador": 8,
+        "proyecto": 13
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 10,
+    "fields": {
+        "titulo": "Octubre respuesta destino martín.",
+        "descripcion": "Propios encuentra precios problemas tipos estos soy conciencia. Sociedad carta eran público verdad. Riesgo sala final vida muerto obstante.",
+        "prioridad": 3,
+        "estado": "Pendiente",
+        "completada": false,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "11:12:50.521",
+        "creador": 24,
+        "proyecto": 8
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 11,
+    "fields": {
+        "titulo": "Apenas calle hijo centro mes.",
+        "descripcion": "Semana elecciones muerto nuestra estoy usted estudios. Director ambos he aunque diferentes cuanto. Precio habrá propuesta lugar recursos recuerdo lugar gente.",
+        "prioridad": 4,
+        "estado": "Pendiente",
+        "completada": false,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "06:54:22.002",
+        "creador": 25,
+        "proyecto": 30
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 12,
+    "fields": {
+        "titulo": "Servicios público se.",
+        "descripcion": "Favor gran grado menor. Semanas sociales debe autor quiere presencia libro. Asociación para proyectos país vista.\nSantiago mitad ahora dolor todos dio. Fernando mes arriba señor.",
+        "prioridad": 4,
+        "estado": "Progreso",
+        "completada": false,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "15:26:57.534",
+        "creador": 17,
+        "proyecto": 6
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 13,
+    "fields": {
+        "titulo": "Región hacía arriba.",
+        "descripcion": "Pequeña médico tú diciembre problemas hechos nos fuerza. La presente interior supuesto quizá. Necesario corazón pronto instituto llevar pueda existe.",
+        "prioridad": 5,
+        "estado": "Pendiente",
+        "completada": false,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "16:49:14.583",
+        "creador": 19,
+        "proyecto": 19
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 14,
+    "fields": {
+        "titulo": "Cinco boca como ciencia estados.",
+        "descripcion": "Programas orden hombres francisco. Nuestras nuevas claro lugar.",
+        "prioridad": 4,
+        "estado": "Progreso",
+        "completada": false,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "13:49:34.106",
+        "creador": 2,
+        "proyecto": 2
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 15,
+    "fields": {
+        "titulo": "Gran carne.",
+        "descripcion": "Estamos comercio quien semana máximo carlos. Ii sector relaciones comercio.\nCantidad guerra difícil industria libro resultados atención. Podemos poner cuba. Hombres vuelve menor mil.",
+        "prioridad": 1,
+        "estado": "Completada",
+        "completada": true,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "12:22:30.321",
+        "creador": 11,
+        "proyecto": 8
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 16,
+    "fields": {
+        "titulo": "Ellos especie sectores.",
+        "descripcion": "Unidos servicios personas pues fuego.\nCausa obras ayer aquí. Supuesto verdad primeras explicó importantes hija asunto.\nArmas flores cuya. Flores comisión objeto.",
+        "prioridad": 2,
+        "estado": "Pendiente",
+        "completada": false,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "21:46:31.169",
+        "creador": 2,
+        "proyecto": 21
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 17,
+    "fields": {
+        "titulo": "Claro martín seguridad.",
+        "descripcion": "Suelo bien comercio. Hijo objetivo llegó cosas misma fuentes. Región aquel parecía partidos.\nVarios niño llevar lado propios. Prensa posibilidades dicho propuesta comunicación ministerio principales.",
+        "prioridad": 3,
+        "estado": "Completada",
+        "completada": true,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "08:09:36.012",
+        "creador": 24,
+        "proyecto": 10
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 18,
+    "fields": {
+        "titulo": "Actividades club gonzález pedro.",
+        "descripcion": "Sean diez texto yo psoe sociales cierto vino. Fuerza hemos ministro manuel libros movimiento actitud prensa. Dicho público seguro público.",
+        "prioridad": 4,
+        "estado": "Progreso",
+        "completada": false,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "09:02:55.087",
+        "creador": 6,
+        "proyecto": 6
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 19,
+    "fields": {
+        "titulo": "Exterior lado natural octubre jamás.",
+        "descripcion": "G estilo considera. Norte con u buenos premio. Meses españa hace nuestras haciendo médico unidad.\nQueda libro doctor unidad estos. Cantidad poder estos razón.",
+        "prioridad": 1,
+        "estado": "Completada",
+        "completada": true,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "12:25:32.616",
+        "creador": 5,
+        "proyecto": 19
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 20,
+    "fields": {
+        "titulo": "Suelo comisión.",
+        "descripcion": "Instituto producto música diversas cuba congreso. Españoles cine edad premio minutos. Carne ocasión mes mayores.",
+        "prioridad": 3,
+        "estado": "Pendiente",
+        "completada": false,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "07:18:54.781",
+        "creador": 28,
+        "proyecto": 8
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 21,
+    "fields": {
+        "titulo": "Necesidad salir día.",
+        "descripcion": "Cosa pronto nombre régimen da buscar. General presenta produce exterior económica crisis cara.\nEn instituciones falta función embargo pequeña cerca hijo. Al otro nunca defensa boca.",
+        "prioridad": 3,
+        "estado": "Progreso",
+        "completada": false,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "14:12:06.692",
+        "creador": 3,
+        "proyecto": 16
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 22,
+    "fields": {
+        "titulo": "Calidad miguel serán ahora.",
+        "descripcion": "Ideas hay pocos mismos instituto será bien. Persona tu muerte cada ciento principal europea podemos. Mes es minutos atención buscar d puede presenta.",
+        "prioridad": 1,
+        "estado": "Progreso",
+        "completada": false,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "15:29:52.277",
+        "creador": 4,
+        "proyecto": 20
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 23,
+    "fields": {
+        "titulo": "Civil base enero todos tengo.",
+        "descripcion": "Son del sea cuales señora. Encontrar hospital esas ahora señor tres.\nMi iglesia pronto suelo. Ello ambos josé nuevos menos podía. Tiempos dirección materia la contra españoles hacen.",
+        "prioridad": 5,
+        "estado": "Completada",
+        "completada": true,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "06:03:54.555",
+        "creador": 3,
+        "proyecto": 20
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 24,
+    "fields": {
+        "titulo": "Mejores resultados televisión boca sistema.",
+        "descripcion": "Aumento razones siguientes ideas eran va. Valor semana crisis asimismo contra. Apoyo ningún efectos respecto jefe.",
+        "prioridad": 3,
+        "estado": "Completada",
+        "completada": true,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "09:41:18.521",
+        "creador": 23,
+        "proyecto": 22
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 25,
+    "fields": {
+        "titulo": "C carlos.",
+        "descripcion": "Alguna dónde relación sé.\nTienen ambos hecho primeros universidad consecuencia. Hace partes tener economía.\nAllá por proyecto centro tiempo social. Importante cuando los autoridades público.",
+        "prioridad": 1,
+        "estado": "Completada",
+        "completada": true,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "06:14:58.291",
+        "creador": 5,
+        "proyecto": 12
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 26,
+    "fields": {
+        "titulo": "Cerca unidos relaciones blanco.",
+        "descripcion": "Tener unidad contenido importancia local semana unos. Presente materia real oficial. Metros situación ambiente.",
+        "prioridad": 4,
+        "estado": "Completada",
+        "completada": true,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "17:07:26.394",
+        "creador": 24,
+        "proyecto": 15
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 27,
+    "fields": {
+        "titulo": "Sol grande paciente.",
+        "descripcion": "Programas acciones siete primer voz señor términos aquel. Ciencia necesidad mal período realidad organización mayores.\nEsto destino allí real amor militares. Medio maría intereses c hermano natural.",
+        "prioridad": 1,
+        "estado": "Completada",
+        "completada": true,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "12:31:49.296",
+        "creador": 16,
+        "proyecto": 1
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 28,
+    "fields": {
+        "titulo": "Constitución militar precisamente intereses.",
+        "descripcion": "Respecto quien españoles mucha condiciones. Bastante actitud mantener hechos pueda camino. Ojos domingo dejó buen aquella.",
+        "prioridad": 4,
+        "estado": "Pendiente",
+        "completada": false,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "01:06:55.838",
+        "creador": 4,
+        "proyecto": 14
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 29,
+    "fields": {
+        "titulo": "Apenas dan tiempos dan vino.",
+        "descripcion": "Enero nuevo pasa hijo grande junio varias lópez.\nBusca son público puedo principio. Período director muestra n. Área quién psoe mujer nuestros entre misma.",
+        "prioridad": 5,
+        "estado": "Completada",
+        "completada": true,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "02:05:40.927",
+        "creador": 19,
+        "proyecto": 25
+    }
+},
+{
+    "model": "blog.tarea",
+    "pk": 30,
+    "fields": {
+        "titulo": "Características común deseo.",
+        "descripcion": "Luz sentido diez primera papel modelo estilo. Frente después muestra final. Casa tema derechos salud música tendrá fuera.",
+        "prioridad": 2,
+        "estado": "Completada",
+        "completada": true,
+        "fecha_creacion": "2026-10-18",
+        "hora_vencimiento": "19:13:41.976",
+        "creador": 19,
+        "proyecto": 23
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 1,
+    "fields": {
+        "nombre": "una",
+        "etiquetas_asociadas": [
+            9,
+            16,
+            21
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 2,
+    "fields": {
+        "nombre": "antes",
+        "etiquetas_asociadas": [
+            2,
+            3,
+            26
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 3,
+    "fields": {
+        "nombre": "estamos",
+        "etiquetas_asociadas": [
+            3,
+            16,
+            25
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 4,
+    "fields": {
+        "nombre": "nueva",
+        "etiquetas_asociadas": [
+            11,
+            16,
+            17
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 5,
+    "fields": {
+        "nombre": "tú",
+        "etiquetas_asociadas": [
+            19,
+            20,
+            29
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 6,
+    "fields": {
+        "nombre": "práctica",
+        "etiquetas_asociadas": [
+            5,
+            20,
+            30
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 7,
+    "fields": {
+        "nombre": "este",
+        "etiquetas_asociadas": [
+            11,
+            15,
+            25
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 8,
+    "fields": {
+        "nombre": "tratamiento",
+        "etiquetas_asociadas": [
+            12,
+            16,
+            25
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 9,
+    "fields": {
+        "nombre": "ya",
+        "etiquetas_asociadas": [
+            8,
+            12,
+            16
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 10,
+    "fields": {
+        "nombre": "cuyo",
+        "etiquetas_asociadas": [
+            13,
+            16,
+            25
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 11,
+    "fields": {
+        "nombre": "policía",
+        "etiquetas_asociadas": [
+            7,
+            15,
+            23
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 12,
+    "fields": {
+        "nombre": "gobierno",
+        "etiquetas_asociadas": [
+            5,
+            7,
+            19
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 13,
+    "fields": {
+        "nombre": "tomar",
+        "etiquetas_asociadas": [
+            11,
+            14,
+            30
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 14,
+    "fields": {
+        "nombre": "estaban",
+        "etiquetas_asociadas": [
+            12,
+            15,
+            22
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 15,
+    "fields": {
+        "nombre": "texto",
+        "etiquetas_asociadas": [
+            4,
+            11,
+            16
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 16,
+    "fields": {
+        "nombre": "junto",
+        "etiquetas_asociadas": [
+            2,
+            15,
+            29
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 17,
+    "fields": {
+        "nombre": "pie",
+        "etiquetas_asociadas": [
+            9,
+            14,
+            27
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 18,
+    "fields": {
+        "nombre": "puedo",
+        "etiquetas_asociadas": [
+            10,
+            27,
+            28
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 19,
+    "fields": {
+        "nombre": "riesgo",
+        "etiquetas_asociadas": [
+            5,
+            6,
+            20
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 20,
+    "fields": {
+        "nombre": "hija",
+        "etiquetas_asociadas": [
+            8,
+            24,
+            27
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 21,
+    "fields": {
+        "nombre": "esfuerzo",
+        "etiquetas_asociadas": [
+            17,
+            20,
+            29
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 22,
+    "fields": {
+        "nombre": "temas",
+        "etiquetas_asociadas": [
+            2,
+            10,
+            18
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 23,
+    "fields": {
+        "nombre": "sigue",
+        "etiquetas_asociadas": [
+            4,
+            15,
+            22
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 24,
+    "fields": {
+        "nombre": "través",
+        "etiquetas_asociadas": [
+            18,
+            20,
+            22
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 25,
+    "fields": {
+        "nombre": "decir",
+        "etiquetas_asociadas": [
+            2,
+            23,
+            29
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 26,
+    "fields": {
+        "nombre": "ojos",
+        "etiquetas_asociadas": [
+            6,
+            8,
+            16
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 27,
+    "fields": {
+        "nombre": "aquella",
+        "etiquetas_asociadas": [
+            6,
+            20,
+            24
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 28,
+    "fields": {
+        "nombre": "presencia",
+        "etiquetas_asociadas": [
+            7,
+            16,
+            20
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 29,
+    "fields": {
+        "nombre": "siguientes",
+        "etiquetas_asociadas": [
+            7,
+            13,
+            15
+        ]
+    }
+},
+{
+    "model": "blog.etiqueta",
+    "pk": 30,
+    "fields": {
+        "nombre": "grado",
+        "etiquetas_asociadas": [
+            3,
+            19,
+            20
+        ]
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 1,
+    "fields": {
+        "contenido": "Habría población médico. Muchas ese jamás precios dolor ministerio política.",
+        "fecha_comentario": "2026-10-18T00:52:20.126",
+        "autor": 1,
+        "comentario": 1
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 2,
+    "fields": {
+        "contenido": "Parece aún al texto le veces política. Voy medidas española.",
+        "fecha_comentario": "2026-10-18T00:52:20.137",
+        "autor": 2,
+        "comentario": 2
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 3,
+    "fields": {
+        "contenido": "Sectores blanco carlos sin estuvo palabras en. Mismos un estaba seis por. Programa santiago finalmente carne nuevas.",
+        "fecha_comentario": "2026-10-18T00:52:20.148",
+        "autor": 3,
+        "comentario": 3
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 4,
+    "fields": {
+        "contenido": "Ocasión formas francia meses llama cultura. Luis aquel otros mayo ambos fecha cuadro. Juan nuevas r problemas doctor economía. Rodríguez ayuda horas niveles ya carne mayores.",
+        "fecha_comentario": "2026-10-18T00:52:20.157",
+        "autor": 4,
+        "comentario": 4
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 5,
+    "fields": {
+        "contenido": "Universidad distintos medio éxito además.",
+        "fecha_comentario": "2026-10-18T00:52:20.167",
+        "autor": 5,
+        "comentario": 5
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 6,
+    "fields": {
+        "contenido": "Hablar algo considera humano.",
+        "fecha_comentario": "2026-10-18T00:52:20.178",
+        "autor": 6,
+        "comentario": 6
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 7,
+    "fields": {
+        "contenido": "Sólo informe razón estuvo creación características.",
+        "fecha_comentario": "2026-10-18T00:52:20.188",
+        "autor": 7,
+        "comentario": 7
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 8,
+    "fields": {
+        "contenido": "Miedo organización única costa mano sola pone. Atrás su seis blanco comisión asimismo escuela eran. Alta tipos me vez van podría.",
+        "fecha_comentario": "2026-10-18T00:52:20.196",
+        "autor": 8,
+        "comentario": 8
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 9,
+    "fields": {
+        "contenido": "Atención soy joven. Forma sala sobre primera.",
+        "fecha_comentario": "2026-10-18T00:52:20.207",
+        "autor": 9,
+        "comentario": 9
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 10,
+    "fields": {
+        "contenido": "Memoria deja propia. Gente maría efecto. Allí ve joven personal silencio.",
+        "fecha_comentario": "2026-10-18T00:52:20.216",
+        "autor": 10,
+        "comentario": 10
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 11,
+    "fields": {
+        "contenido": "Empresas igual estuvo primera. Hubiera propia cargo programas viene cama.",
+        "fecha_comentario": "2026-10-18T00:52:20.226",
+        "autor": 11,
+        "comentario": 11
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 12,
+    "fields": {
+        "contenido": "Centro otras tienen programas comunicación. González decía contrario. Doctor construcción análisis solución democracia.",
+        "fecha_comentario": "2026-10-18T00:52:20.235",
+        "autor": 12,
+        "comentario": 12
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 13,
+    "fields": {
+        "contenido": "Está sangre actividades naturaleza hubo. Elecciones etc calidad encontrar es vamos hubiera. Tú barcelona puerta juez volvió fecha república.",
+        "fecha_comentario": "2026-10-18T00:52:20.245",
+        "autor": 13,
+        "comentario": 13
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 14,
+    "fields": {
+        "contenido": "Plazo esfuerzo antes sala tiene jorge siempre. Armas tribunal producción fernando comisión carlos pública.",
+        "fecha_comentario": "2026-10-18T00:52:20.262",
+        "autor": 14,
+        "comentario": 14
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 15,
+    "fields": {
+        "contenido": "Forma menor sectores resultados mayores habían valores. Sangre diario siguientes. Otros número estar pone trabajadores van problemas. Ideas josé gobierno grande.",
+        "fecha_comentario": "2026-10-18T00:52:20.274",
+        "autor": 15,
+        "comentario": 15
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 16,
+    "fields": {
+        "contenido": "Película podía médico. Sentido quizá veces marco. Formación manuel bueno. Tengo hospital perdido hoy baja puerta éste.",
+        "fecha_comentario": "2026-10-18T00:52:20.290",
+        "autor": 16,
+        "comentario": 16
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 17,
+    "fields": {
+        "contenido": "Encuentra población ministro. Hora imposible miedo hoy existencia mí considera. Encima voluntad asociación buenos pueda natural.",
+        "fecha_comentario": "2026-10-18T00:52:20.300",
+        "autor": 17,
+        "comentario": 17
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 18,
+    "fields": {
+        "contenido": "Social américa arriba. Pronto siguiente cosa vino todos. Línea ciencia mano acuerdo favor título clase.",
+        "fecha_comentario": "2026-10-18T00:52:20.315",
+        "autor": 18,
+        "comentario": 18
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 19,
+    "fields": {
+        "contenido": "Actitud bastante varios le humano. Primera fútbol estructura felipe los cabeza. Caso ir siete habrá electoral septiembre enero sería.",
+        "fecha_comentario": "2026-10-18T00:52:20.324",
+        "autor": 19,
+        "comentario": 19
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 20,
+    "fields": {
+        "contenido": "Francisco varios ellos aspectos marzo.",
+        "fecha_comentario": "2026-10-18T00:52:20.334",
+        "autor": 20,
+        "comentario": 20
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 21,
+    "fields": {
+        "contenido": "Allí todo esta si. Mientras españa actividades empresa marcha centros. Reforma quienes paciente programa.",
+        "fecha_comentario": "2026-10-18T00:52:20.343",
+        "autor": 21,
+        "comentario": 21
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 22,
+    "fields": {
+        "contenido": "Estoy policía demás miembros. Sino siguiente costa pesar.",
+        "fecha_comentario": "2026-10-18T00:52:20.352",
+        "autor": 22,
+        "comentario": 22
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 23,
+    "fields": {
+        "contenido": "Volver puerta fondo. Afirmó existe diario algunos hija cambio.",
+        "fecha_comentario": "2026-10-18T00:52:20.360",
+        "autor": 23,
+        "comentario": 23
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 24,
+    "fields": {
+        "contenido": "Visita estaba cultural riesgo siglo presencia respecto idea. Algunos bastante momento interior chile mujer dónde.",
+        "fecha_comentario": "2026-10-18T00:52:20.370",
+        "autor": 24,
+        "comentario": 24
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 25,
+    "fields": {
+        "contenido": "Estaba fuerza mundial vuelta programas. Diez autoridades ocasiones frente varias que. Gobierno revolución carne buscar humano señora buscar.",
+        "fecha_comentario": "2026-10-18T00:52:20.381",
+        "autor": 25,
+        "comentario": 25
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 26,
+    "fields": {
+        "contenido": "Crecimiento través aquellas hasta pequeño nuestro suerte. Hacer voz trata silencio será situación expresión.",
+        "fecha_comentario": "2026-10-18T00:52:20.390",
+        "autor": 26,
+        "comentario": 26
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 27,
+    "fields": {
+        "contenido": "Todas acto mucho jorge donde. Crisis elecciones nivel peso estuvo informe aquellos imágenes. Serán paso vio todavía.",
+        "fecha_comentario": "2026-10-18T00:52:20.398",
+        "autor": 27,
+        "comentario": 27
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 28,
+    "fields": {
+        "contenido": "Través cosas ministro ciudad. Ejemplo aspecto produce muy pueda.",
+        "fecha_comentario": "2026-10-18T00:52:20.406",
+        "autor": 28,
+        "comentario": 28
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 29,
+    "fields": {
+        "contenido": "Va propia maría sistemas septiembre tal. Línea pasó silencio da sangre nosotros me zona. Así queda oficial región permite muchos francia.",
+        "fecha_comentario": "2026-10-18T00:52:20.416",
+        "autor": 29,
+        "comentario": 29
+    }
+},
+{
+    "model": "blog.comentario",
+    "pk": 30,
+    "fields": {
+        "contenido": "Buenos hija pueblo suelo capital habían. S entrar dolor atrás ello capaz programa así. Plan sí gracias fernando poder productos ella.",
+        "fecha_comentario": "2026-10-18T00:52:20.424",
+        "autor": 30,
+        "comentario": 30
+    }
+}
+]
