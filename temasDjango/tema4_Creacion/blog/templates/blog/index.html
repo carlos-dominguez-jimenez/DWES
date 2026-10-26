@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><title>Gestión de Tareas</title></head>
+<body>
+    <h1>GESTIÓN DE TAREAS</h1>
+    <h2>Listado de enlaces</h2>
+    <ul>
+        <!-- aquí iremos añadiendo un <li> por ejercicio -->
+            <li><a href="{% url 'listar_proyectos' %}">Ej. 2 · Todos los proyectos</a></li>
+            <li><a href="{% url 'dame_tareas_proyecto' 26 %}">Ej. 3 · Tareas del proyecto 26</a></li>
+    </ul>
+</body>
+</html>

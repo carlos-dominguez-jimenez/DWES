@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><title>Tareas</title></head>
+<body>
+    <p><a href="{% url 'index' %}">&larr; Inicio</a></p>
+    <h1>Tareas</h1>
+    {% for tarea in tareas_mostrar %}
+    <div>
+        <h2>Título: {{ tarea.titulo }}</h2>
+        <h3>Proyecto: {{ tarea.proyecto.nombre }}</h3>
+        <h3>Creador: {{ tarea.creador.nombre }}</h3>
+        <h3>Estado: {{ tarea.get_estado_display }}</h3>
+        <p>Descripción: {{ tarea.descripcion }}</p>
+        <p>Prioridad: {{ tarea.prioridad }}</p>
+        <p>Fecha de creación: {{ tarea.fecha_creacion|date:"d/m/Y" }}</p>
+        <p>Hora de vencimiento: {{ tarea.hora_vencimiento|time:"H:i" }}</p>
+        <p>Completada: {{ tarea.completada|yesno:"Sí,No" }}</p>
+    </div>
+    {% empty %}
+        <p>No hay tareas que mostrar.</p>
+    {% endfor %}
+</body>
+</html>
