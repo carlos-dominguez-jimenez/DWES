@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><title>Usuarios</title></head>
+<body>
+    <p><a href="{% url 'index' %}">&larr; Inicio</a></p>
+    <h1>Tareas</h1>
+    {% for usuarios in usuario_mostrar %}
+    <div>
+       <p>Nombre: {{usuarios.nombre}}</p>
+    </div>
+    {% empty %}
+        <p>No hay usuarios que mostrar.</p>
+    {% endfor %}
+</body>
+</html>
