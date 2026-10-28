@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><title>Tareas por observación</title></head>
+<body>
+    <p><a href="{% url 'index' %}">&larr; Inicio</a></p>
+    <h1>Tareas con ese texto en las observaciones</h1>
+    {% for asignacion in observacion %}
+    <div>
+        <h2>Tarea: {{ asignacion.tarea.titulo }}</h2>
+        <h3>Observaciones: {{ asignacion.observaciones }}</h3>
+        <p>Descripción: {{ asignacion.tarea.descripcion }}</p>
+        <p>Estado: {{ asignacion.tarea.get_estado_display }}</p>
+        <p>Prioridad: {{ asignacion.tarea.prioridad }}</p>
+        <p>Fecha de asignación: {{ asignacion.fecha_asignacion|date:"d/m/Y H:i" }}</p>
+    </div>
+    {% empty %}
+        <p>No hay tareas con ese texto en las observaciones.</p>
+    {% endfor %}
+</body>
+</html>

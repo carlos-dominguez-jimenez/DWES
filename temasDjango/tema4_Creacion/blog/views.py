@@ -24,6 +24,6 @@ def dame_usuarios_tarea(request, id_tarea):
     return render(request, 'tarea/usuarios.html', {"usuarios_mostrar": usuarios})
 
 #Ejercicio5
-def dame_tareas_observsaciones(request, texto_observacion):
-
-    return
+def dame_tareas_observaciones(request, texto_observacion):
+    observacion = AsignacionTarea.objects.select_related("tarea").filter(observaciones=texto_observacion)
+    return render(request, 'tarea/observacion.html', {"observacion": observacion})
