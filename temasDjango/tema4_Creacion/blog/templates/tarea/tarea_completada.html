@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tareas Completadas (2019)</title>
+</head>
+<body>
+
+    <h1>Tareas Completadas entre 2018 y 2020</h1>
+
+    <div class="contenedor-tareas">
+        <!-- Usamos "tares_completada" tal y como lo nombraste en el diccionario de views.py -->
+        {% for tarea in tarea_completada %}
+            <div class="tarjeta-tarea">
+                <div class="titulo">{{ tarea.titulo }}</div>
+                <p>{{ tarea.descripcion }}</p>
+                <div class="meta"><strong>Prioridad:</strong> {{ tarea.prioridad }}</div>
+                <div class="meta"><strong>Fecha de creación:</strong> {{ tarea.fecha_creacion|date:"d/m/Y" }}</div>
+                <div class="meta"><strong>Proyecto:</strong> {{ tarea.proyecto.nombre }}</div>
+                <div class="meta"><strong>Creador:</strong> {{ tarea.creador.username }}</div>
+            </div>
+        {% empty %}
+            <p>No se encontraron tareas completadas creadas en el año 2019.</p>
+        {% endfor %}
+    </div>
+
+</body>
+</html>

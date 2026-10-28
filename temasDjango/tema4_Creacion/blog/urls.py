@@ -12,4 +12,6 @@ urlpatterns = [
     path('tarea/<int:id_tarea>/usuarios/', views.dame_usuarios_tarea, name='dame_usuarios_tarea'),
     #Ejercicio5
     path('tarea/<str:texto_observacion>/', views.dame_tareas_observaciones, name='dame_tareas_observaciones'),
+    #Ejercicio6
+    path('tarea/<str:estado>/<int:fecha_creacion>/', views.tarea_completada, name='tarea_completada'),
 ]

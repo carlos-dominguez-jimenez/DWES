@@ -27,3 +27,8 @@ def dame_usuarios_tarea(request, id_tarea):
 def dame_tareas_observaciones(request, texto_observacion):
     observacion = AsignacionTarea.objects.select_related("tarea").filter(observaciones=texto_observacion)
     return render(request, 'tarea/observacion.html', {"observacion": observacion})
+
+#Ejercicio6
+def tarea_completada(request, estado, fecha_creacion):
+    tarea_completa = Tarea.objects.filter(estado="Completada", fecha_creacion__year__gt=2018, fecha_creacion__year__lt=2020)
+    return render(request, 'tarea/tarea_completada.html', {"tarea_completada": tarea_completa})
