@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios del Proyecto</title>
+</head>
+<body>
+        <h1>Comentarios del Proyecto</h1>
+
+        <div class="lista-comentarios">
+            {% if comentario %}
+              
+                        <div>
+                            <span>Autor: {{ comentario.autor.nombre }}</span><br>
+                            <!-- Formateamos la fecha -->
+                            <span>Fecha Comentario: {{ comentario.fecha_comentario}}</span>
+                        </div>
+
+            {% else %}
+                <p class="sin-comentarios">No hay comentarios registrados para este proyecto.</p>
+            {% endif %}
+        </div>
+</body>
+</html>

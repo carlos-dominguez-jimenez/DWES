@@ -30,5 +30,10 @@ def dame_tareas_observaciones(request, texto_observacion):
 
 #Ejercicio6
 def tarea_completada(request, estado, fecha_creacion):
-    tarea_completa = Tarea.objects.filter(estado="Completada", fecha_creacion__year__gt=2018, fecha_creacion__year__lt=2020)
+    tarea_completa = Tarea.objects.filter(estado="Completada", fecha_creacion__year__gt=2025, fecha_creacion__year__lt=2027)
     return render(request, 'tarea/tarea_completada.html', {"tarea_completada": tarea_completa})
+
+#Ejercicio7
+def comentario_proyecto(request, proyecto_id):
+    comentario = Comentario.objects.select_related("autor", "comentario").filter(comentario__proyecto_id=proyecto_id).order_by('-fecha_comentario')[:1].get()
+    return render(request, 'blog/comentario.html', {"comentario": comentario})
