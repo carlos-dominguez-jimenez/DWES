@@ -37,3 +37,8 @@ def tarea_completada(request, estado, fecha_creacion):
 def comentario_proyecto(request, proyecto_id):
     comentario = Comentario.objects.select_related("autor", "comentario").filter(comentario__proyecto_id=proyecto_id).order_by('-fecha_comentario')[:1].get()
     return render(request, 'blog/comentario.html', {"comentario": comentario})
+
+#Ejercicio8
+def comentario_especifico(request, palabra, anio_comentario):
+    comentario_concreto = Comentario.objects.select_related("autor", "comentario").filter(comentario__titulo__startswith=palabra, fecha_comentario__year=anio_comentario)
+    return render(request, 'blog/comentario_tarea.html', {"comentario_tarea": comentario_concreto})
