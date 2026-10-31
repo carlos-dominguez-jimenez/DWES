@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><title>Etiquetas</title></head>
+<body>
+    <p><a href="{% url 'index' %}">&larr; Inicio</a></p>
+    <h1>Etiquetas</h1>
+    <ul>
+        {% for etiqueta in etiquetas_mostrar %}
+            <li>{{ etiqueta.nombre }}</li>
+        {% empty %}
+            <li>No hay etiquetas que mostrar.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -42,3 +42,8 @@ def comentario_proyecto(request, proyecto_id):
 def comentario_especifico(request, palabra, anio_comentario):
     comentario_concreto = Comentario.objects.select_related("autor", "comentario").filter(comentario__titulo__startswith=palabra, fecha_comentario__year=anio_comentario)
     return render(request, 'blog/comentario_tarea.html', {"comentario_tarea": comentario_concreto})
+
+#Ejercicio9
+def etiqueta_proyecto(request, id_proyecto):
+    etiquetas = Etiqueta.objects.filter(etiquetas_asociadas__proyecto=id_proyecto).distinct()
+    return render(request, 'blog/etiqueta.html', {"etiquetas": etiquetas})

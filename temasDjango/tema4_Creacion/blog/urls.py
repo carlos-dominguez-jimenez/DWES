@@ -18,4 +18,6 @@ urlpatterns = [
     path('blog/<int:proyecto_id>/', views.comentario_proyecto, name='comentario_proyecto'),
     #Ejercicio8
     path('blog/<str:palabra>/<int:anio_comentario>/', views.comentario_especifico, name='comentario_especifico'),
+    #Ejercicio9
+    path('blog/<str:id_proyecto>/etiquetas/', views.etiqueta_proyecto, name='etiqueta_proyecto'),
 ]
