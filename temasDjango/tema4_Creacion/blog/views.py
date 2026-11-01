@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.core.exceptions import BadRequest, PermissionDenied
 from .models import Usuario, Proyecto, Tarea, AsignacionTarea, Etiqueta, Comentario
+from django.core.exceptions import BadRequest, PermissionDenied
 
 #Ejercicio 1
 def index(request):
@@ -47,3 +48,31 @@ def comentario_especifico(request, palabra, anio_comentario):
 def etiqueta_proyecto(request, id_proyecto):
     etiquetas = Etiqueta.objects.filter(etiquetas_asociadas__proyecto=id_proyecto).distinct()
     return render(request, 'blog/etiqueta.html', {"etiquetas": etiquetas})
+
+#Ejercicio10
+def usuarios_sin_tarea(request):
+    usuarios = Usuario.objects.filter(asignaciontarea=None)
+    return render(request, 'blog/usuario_sin_tarea.html', {"usuarios_mostrar": usuarios})
+
+#Errores
+def mi_error_400(request, exception=None):
+    return render(request, 'blog/400.html', None, None, 400)
+
+def mi_error_403(request, exception=None):
+    return render(request, 'blog/403.html', None, None, 403)
+
+def mi_error_404(request, exception=None):
+    return render(request, 'blog/404.html', None, None, 404)
+
+def mi_error_500(request, exception=None):
+    return render(request, 'blog/500.html', None, None, 500)
+
+# Solo para provocar los errores a mano
+def probar_error_400(request):
+    raise BadRequest("Petición de prueba")
+
+def probar_error_403(request):
+    raise PermissionDenied("Permiso de prueba")
+
+def probar_error_500(request):
+    raise Exception("Error interno de prueba")

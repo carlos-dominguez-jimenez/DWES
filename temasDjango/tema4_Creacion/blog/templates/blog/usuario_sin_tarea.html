@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><title>Usuarios</title></head>
+<body>
+    <p><a href="{% url 'index' %}">&larr; Inicio</a></p>
+    <h1>Usuarios</h1>
+    {% for usuario in usuarios_mostrar %}
+    <div>
+        <h2>Nombre: {{ usuario.nombre }}</h2>
+        <h3>Correo: {{ usuario.correo_electronico }}</h3>
+        <p>Fecha de registro: {{ usuario.fecha_registro|date:"d/m/Y" }}</p>
+    </div>
+    {% empty %}
+        <p>No hay usuarios que mostrar.</p>
+    {% endfor %}
+</body>
+</html>
