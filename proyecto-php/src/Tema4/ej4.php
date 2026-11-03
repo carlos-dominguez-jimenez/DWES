@@ -6,23 +6,21 @@ $error = "";
 // Cerrar sesión
 if (isset($_POST['cerrar'])) {
     session_destroy();
-    header("Location: ej1.php");
-    exit;
+    header("refresh: 0;"); // refresca la página, necesario después de destruir la sesión
 }
 
-// Comprobar el login
-if (isset($_POST['usuario'])) {
-    if ($_POST['usuario'] == "admin" && $_POST['clave'] == "1234") {
-        $_SESSION['usuario'] = $_POST['usuario'];
-        header("Location: ej1.php");
-        exit;
+// Control de acceso: comprobar usuario y contraseña
+if (isset($_POST['user'])) {
+    if ($_POST['user'] == "admin" && $_POST['pass'] == "1234") {
+        $_SESSION['user'] = $_POST['user'];
     } else {
         $error = "Usuario o contraseña incorrectos.";
     }
 }
 
-// Ejercicio 1: solo si hay sesión iniciada
-if (isset($_SESSION['usuario'])) {
+$mensaje = "";
+
+if (isset($_SESSION['user'])) {
     if (!isset($_SESSION['suma'])) {
         $_SESSION['suma'] = 0;
         $_SESSION['cantidad'] = 0;
@@ -36,55 +34,47 @@ if (isset($_SESSION['usuario'])) {
             $_SESSION['cantidad']++;
         } else {
             if ($_SESSION['cantidad'] > 0) {
-                echo "La media es: " . $_SESSION['suma'] / $_SESSION['cantidad'] . "<br>";
+                $mensaje = "La media es: " . $_SESSION['suma'] / $_SESSION['cantidad'];
             } else {
-                echo "No se han introducido números positivos.<br>";
+                $mensaje = "No se han introducido números positivos.";
             }
-            // No usamos session_destroy() porque cerraría también el login
+            // No se usa session_destroy() porque cerraría también el login
             unset($_SESSION['suma']);
             unset($_SESSION['cantidad']);
         }
     }
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <title>Ejercicio 1 con login</title>
 </head>
 <body>
-<?php if (!isset($_SESSION['usuario'])) { ?>
+    <?php if (!isset($_SESSION['user'])) { ?>
 
-    <h1>Iniciar sesión</h1>
+        <h3>IDENTIFIQUESE</h3>
+        <p style="color:red;"><?= $error ?></p>
+        <form action="" method="post">
+            Usuario: <input type="text" name="user"><br><br>
+            Contraseña: <input type="password" name="pass"><br><br>
+            <input type="submit" value="Entrar">
+        </form>
 
-    <?php
-    if ($error != "") {
-        echo "<p style='color:red;'>" . $error . "</p>";
-    }
-    ?>
+    <?php } else { ?>
 
-    <form action="ej1.php" method="post">
-        Usuario: <input type="text" name="usuario"><br><br>
-        Contraseña: <input type="password" name="clave"><br><br>
-        <input type="submit" value="Entrar">
-    </form>
+        <h3>Bienvenido, <?= $_SESSION['user'] ?></h3>
+        <p><?= $mensaje ?></p>
+        <form action="" method="post">
+            Introduce el número: <input type="number" name="numero">
+            <input type="submit" value="Enviar">
+        </form>
+        <br>
+        <form action="" method="post">
+            <input type="submit" value="Cerrar sesión" name="cerrar">
+        </form>
 
-<?php } else { ?>
-
-    <p>Usuario: <?php echo $_SESSION['usuario']; ?></p>
-
-    <form action="ej4.php" method="post">
-        Introduce el número: <input type="number" name="numero">
-        <input type="submit" value="Enviar">
-    </form>
-
-    <br>
-
-    <form action="ej4.php" method="post">
-        <input type="submit" name="cerrar" value="Cerrar sesión">
-    </form>
-
-<?php } ?>
+    <?php } ?>
 </body>
 </html>
