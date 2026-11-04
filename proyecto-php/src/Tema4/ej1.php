@@ -6,10 +6,6 @@
         $_SESSION['cantidad'] = 0;
     }
 
-    $mensaje = '';
-    $terminado = false;
-    $media = 0;
-
     if (isset($_POST['numero'])) {
         $numero = $_POST['numero'];
 
