@@ -11,7 +11,6 @@ if (isset($_POST['numero'])) {
 
     $_SESSION['suma'] += $numero;
     $_SESSION['cantidad']++;
-    echo "ID de sesión: " . session_id() . "<br>";
 
     if ($_SESSION['suma'] > 10000) {
         echo "El total acumulado es: " . $_SESSION['suma'] . "<br>";
