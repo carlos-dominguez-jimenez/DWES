@@ -1,8 +1,6 @@
 <?php
 session_start();
 
-$error = "";
-
 // Cerrar sesión
 if (isset($_POST['cerrar'])) {
     session_destroy();
