@@ -1,7 +1,7 @@
 <?php
 
 function escribirTresNumeros($num1, $num2, $num3): void {
-    $archivo = fopen('/tmp/datosEjercicio.txt', 'w');
+    $archivo = fopen(__DIR__ . '/datosEjercicio.txt', 'w');
 
     if ($archivo) {
         fwrite($archivo, $num1 . PHP_EOL);
