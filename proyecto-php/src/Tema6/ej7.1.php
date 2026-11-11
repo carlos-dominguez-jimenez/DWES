@@ -3,8 +3,7 @@ mediante la función leerContenidoFichero muestra el contenido del fichero. Ahor
 escribirNumerosMod amplía el contenido del fichero y añádele los números 33, 11 y 16. Muestra nuevamente el
 contenido del fichero por pantalla. Finalmente, escribe el fichero pasándole un array con los número 4, 99, 12 y
 parámetro <<sobreescribir>> para eliminar los datos que existieran previamente. Muestra el contenido del fichero
-por pantalla y un mensaje de <despedida class="--">
-
+por pantalla y un mensaje de despedida-->
 
 <?php
 function escribirNumerosMod($fichero, $numeros, $modo = "anadir") {
@@ -26,7 +25,7 @@ function escribirNumerosMod($fichero, $numeros, $modo = "anadir") {
     return true;
 }
 
-function leerContenidoFicheros($fichero) {
+function leerContenidoFichero($fichero) {
     if (!file_exists($fichero)) {
         return "";
     }
@@ -40,7 +39,7 @@ if (file_exists($fichero)) {
 }
 ?>
 
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
