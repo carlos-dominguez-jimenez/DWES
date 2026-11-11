@@ -77,7 +77,6 @@ class CocheLujo extends Coche {
         return parent::getPrecio() + $this->suplemento;
     }
 
-    #[Override]
     public function __toString()
     {
         return "<tr><td>" . htmlspecialchars($this->getMatricula()) . "</td><td>" . htmlspecialchars($this->getModelo()) . "</td><td>" . $this->getPrecio() . "$</td><td>" . $this->suplemento . "</td></tr>";
