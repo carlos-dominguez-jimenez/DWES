@@ -17,3 +17,20 @@ if (isset($_POST['dni'])) {
         exit;
     }
 }
+$conexion = null;
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alta de clientes</title>
+</head>
+<body>
+    <h2>Base de datos<u>banco</u> - Alta de clientes</h2>
+
+    <?php if ($mensaje !="") { ?>
+        <p><b><?=  $mensaje ?></b></p>
+        <?php } ?>
+</body>
+</html>
