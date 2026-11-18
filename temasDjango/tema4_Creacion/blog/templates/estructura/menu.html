@@ -1,0 +1,9 @@
+{% load static %}
+<nav class="menu">
+    <a href="{% url 'index' %}">Inicio</a>
+    <a href="{% url 'listar_proyectos' %}">Proyectos</a>
+    <a href="{% url 'dame_tareas_proyecto' 26 %}">Tareas del proyecto 26</a>
+    <a href="{% url 'dame_usuarios_tarea' 12 %}">Usuarios de la tarea 12</a>
+    <a href="{% url 'usuarios_sin_tarea' %}">Usuarios sin tarea</a>
+    <a href="{% url 'etiqueta_proyecto' 21 %}">Etiquetas</a>
+</nav>
