@@ -1,0 +1,10 @@
+<div class="tarjeta {% cycle 'par' 'impar' %}">
+    <h2>{{ tarea.titulo }}</h2>
+    <p>{{ tarea.descripcion|linebreaksbr }}</p>
+    <p><strong>Prioridad:</strong> {{ tarea.prioridad }}
+        {% if tarea.prioridad == 1 or tarea.prioridad == 2 %}(poco importante){% else %}(importante){% endif %}
+    </p>
+    <p><strong>Fecha de creación:</strong> {{ tarea.fecha_creacion|date:"d/m/Y" }}</p>
+    <p><strong>Proyecto:</strong> {{ tarea.proyecto.nombre }}</p>
+    <p><strong>Creador:</strong> {{ tarea.creador.nombre }}</p>
+</div>

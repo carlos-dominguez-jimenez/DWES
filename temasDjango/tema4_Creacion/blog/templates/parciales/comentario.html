@@ -1,0 +1,7 @@
+<div class="tarjeta {% cycle 'par' 'impar' %}">
+    <h2>Tarea: {{ comentario.comentario.titulo }}</h2>
+    <h3>Autor: {{ comentario.autor.nombre }}</h3>
+    <p>Fecha: {{ comentario.fecha_comentario|date:"d/m/Y H:i" }}</p>
+    <p>Comentario: {{ comentario.contenido }}</p>
+    <p>Palabras: {{ comentario.contenido|wordcount }}</p>
+</div>

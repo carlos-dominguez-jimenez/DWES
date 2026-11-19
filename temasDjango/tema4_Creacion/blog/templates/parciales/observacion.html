@@ -1,0 +1,8 @@
+<div class="tarjeta {% cycle 'par' 'impar' %}">
+    <h2>Tarea: {{ asignacion.tarea.titulo }}</h2>
+    <h3>Observaciones: {{ asignacion.observaciones }}</h3>
+    <p>Descripción: {{ asignacion.tarea.descripcion|slice:":100" }}...</p>
+    <p>Estado: {{ asignacion.tarea.get_estado_display }}</p>
+    <p>Prioridad: {{ asignacion.tarea.prioridad }}</p>
+    <p>Fecha de asignación: {{ asignacion.fecha_asignacion|date:"d/m/Y H:i" }}</p>
+</div>

@@ -1,0 +1,4 @@
+<li>
+    {{ etiqueta.nombre|capfirst }}
+    {% if etiqueta.nombre|length > 6 %}<small>(nombre largo)</small>{% endif %}
+</li>

@@ -1,0 +1,8 @@
+<div class="tarjeta {% cycle 'par' 'impar' %}">
+    <p>{{ forloop.counter }}. Nombre: {{ asignacion.usuario.nombre }}</p>
+    <p>Asignado el: {{ asignacion.fecha_asignacion|date:"d/m/Y H:i" }}</p>
+    <p>Observaciones: {{ asignacion.observaciones }}</p>
+    {% if "tipos" in asignacion.observaciones|lower %}
+        <p><em>Esta observación menciona "tipos".</em></p>
+    {% endif %}
+</div>

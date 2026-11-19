@@ -1,0 +1,5 @@
+<div class="tarjeta {% cycle 'par' 'impar' %}">
+    <h2>Nombre: {{ usuario.nombre }}</h2>
+    <h3>Correo: {{ usuario.correo_electronico|lower|urlize }}</h3>
+    <p>Fecha de registro: {{ usuario.fecha_registro|date:"d/m/Y" }}</p>
+</div>

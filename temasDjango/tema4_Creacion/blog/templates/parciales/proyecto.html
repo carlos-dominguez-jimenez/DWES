@@ -1,0 +1,26 @@
+{% with total=proyecto.proyectos_asignados.all|length %}
+<div class="tarjeta {{ fila }}">
+    <h2>{{ forloop.counter }}. {{ proyecto.nombre|upper }}</h2>
+    <h3>Creador: {{ proyecto.creador.nombre|title }}</h3>
+    <h3>{{ total }} usuario{{ total|pluralize }} asignado{{ total|pluralize }}</h3>
+    <ul>
+        {% for usuario in proyecto.proyectos_asignados.all %}
+            <li>{{ usuario.nombre }}</li>
+        {% empty %}
+            <li class="vacio">Sin usuarios asignados</li>
+        {% endfor %}
+    </ul>
+    <p>Descripción: {{ proyecto.descripcion|truncatechars:120 }}</p>
+    <p>Duración estimada: {{ proyecto.duracion_estimada|floatformat:1 }} h
+        {% if proyecto.duracion_estimada >= 50 and proyecto.duracion_estimada <= 100 %}
+            (proyecto largo)
+        {% elif proyecto.duracion_estimada < 50 %}
+            (proyecto corto)
+        {% else %}
+            (proyecto muy largo)
+        {% endif %}
+    </p>
+    <p>Fecha de inicio: {{ proyecto.fecha_inicio|date:"d/m/Y" }} (hace {{ proyecto.fecha_inicio|timesince }})</p>
+    <p>Fecha de finalización: {{ proyecto.fecha_finalizacion|date:"d/m/Y" }}</p>
+</div>
+{% endwith %}
