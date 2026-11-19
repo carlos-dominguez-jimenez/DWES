@@ -1,15 +1,18 @@
-<!DOCTYPE html>
-<html lang="es">
-<head><meta charset="UTF-8"><title>Etiquetas</title></head>
-<body>
-    <p><a href="{% url 'index' %}">&larr; Inicio</a></p>
-    <h1>Etiquetas</h1>
+{% extends 'estructura/base.html' %}
+
+{% block titulo %}Etiquetas{% endblock %}
+
+{% block cabecera %}<h1>Etiquetas</h1>{% endblock %}
+
+{% block contenido %}
+    {% if etiquetas %}
+        <p>Etiquetas: {{ etiquetas|join:", " }}</p>
+    {% endif %}
     <ul>
-        {% for etiqueta in etiquetas_mostrar %}
-            <li>{{ etiqueta.nombre }}</li>
+        {% for etiqueta in etiquetas %}
+            {% include 'parciales/etiqueta.html' %}
         {% empty %}
-            <li>No hay etiquetas que mostrar.</li>
+            <li class="vacio">No hay etiquetas que mostrar.</li>
         {% endfor %}
     </ul>
-</body>
-</html>
+{% endblock %}

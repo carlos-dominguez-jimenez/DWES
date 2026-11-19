@@ -1,28 +1,13 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Tareas Completadas (2019)</title>
-</head>
-<body>
+{% extends 'estructura/base.html' %}
 
-    <h1>Tareas Completadas entre 2025 y 2027</h1>
+{% block titulo %}Tareas completadas{% endblock %}
 
-    <div class="contenedor-tareas">
-        <!-- Usamos "tares_completada" tal y como lo nombraste en el diccionario de views.py -->
-        {% for tarea in tarea_completada %}
-            <div class="tarjeta-tarea">
-                <div class="titulo">{{ tarea.titulo }}</div>
-                <p>{{ tarea.descripcion }}</p>
-                <div class="meta"><strong>Prioridad:</strong> {{ tarea.prioridad }}</div>
-                <div class="meta"><strong>Fecha de creación:</strong> {{ tarea.fecha_creacion|date:"d/m/Y" }}</div>
-                <div class="meta"><strong>Proyecto:</strong> {{ tarea.proyecto.nombre }}</div>
-                <div class="meta"><strong>Creador:</strong> {{ tarea.creador.username }}</div>
-            </div>
-        {% empty %}
-            <p>No se encontraron tareas completadas creadas en el año 2026.</p>
-        {% endfor %}
-    </div>
+{% block cabecera %}<h1>Tareas completadas entre 2025 y 2027</h1>{% endblock %}
 
-</body>
-</html>
+{% block contenido %}
+    {% for tarea in tarea_completada %}
+        {% include 'parciales/tarea_completada.html' %}
+    {% empty %}
+        <p class="vacio">No se encontraron tareas completadas en ese rango de años.</p>
+    {% endfor %}
+{% endblock %}

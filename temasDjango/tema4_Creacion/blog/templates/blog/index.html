@@ -1,24 +1,27 @@
-<!DOCTYPE html>
-<html lang="es">
-<head><meta charset="UTF-8"><title>Gestión de Tareas</title></head>
-<body>
+{% extends 'estructura/base.html' %}
+
+{% block titulo %}Inicio · Gestión de Tareas{% endblock %}
+
+{% block cabecera %}
     <h1>GESTIÓN DE TAREAS</h1>
-    <h2>Listado de enlaces</h2>
+    <p>Listado de enlaces del proyecto</p>
+{% endblock %}
+
+{% block contenido %}
+    {% comment %}Un <li> por cada ejercicio del tema anterior{% endcomment %}
     <ul>
-        <!-- aquí iremos añadiendo un <li> por ejercicio -->
-            <li><a href="{% url 'listar_proyectos' %}">Ej. 2 · Todos los proyectos</a></li>
-            <li><a href="{% url 'dame_tareas_proyecto' 26 %}">Ej. 3 · Tareas del proyecto 26</a></li>
-            <li><a href="{% url 'dame_usuarios_tarea' 12 %}">Ej. 4 · Usuarios tarea</a></li>
-            <li><a href="{% url 'dame_tareas_observaciones' 'Contra tipos rosa respecto podía.' %}">Ej. 5 · Texto concreto</a></li>
-            <li><a href="{% url 'tarea_completada' 'Completada' 2026 %}">Ej. 6 · Tareas completadas en un rango de años</a></li>
-            <li><a href="{% url 'comentario_proyecto' 1 %}">Ej. 7 · Ultimo usuario en comentar</a></li>
-            <li><a href="{% url 'comentario_especifico' 'Nada' 2026 %}">Ej. 8 · Comentarios de la tarea que empieza por "Nada" en 2026</a></li>
-            <li><a href="{% url 'etiqueta_proyecto' 21 %}">Ej. 8 · Comentarios de la tarea que empieza por "Nada" en 2026</a></li>
-            <li><a href="{% url 'usuarios_sin_tarea' %}">Ej. 10 · Usuarios sin ninguna tarea asignada</a></li>
-            <li><a href="{% url 'probar_error_400' %}">Error 400</a></li>
-            <li><a href="{% url 'probar_error_403' %}">Error 403</a></li>
-            <li><a href="/esta-pagina-no-existe/">Error 404</a></li>
-            <li><a href="{% url 'probar_error_500' %}">Error 500</a></li>
+        <li><a href="{% url 'listar_proyectos' %}">Ej. 2 · Todos los proyectos</a></li>
+        <li><a href="{% url 'dame_tareas_proyecto' 26 %}">Ej. 3 · Tareas del proyecto 26</a></li>
+        <li><a href="{% url 'dame_usuarios_tarea' 12 %}">Ej. 4 · Usuarios de la tarea 12</a></li>
+        <li><a href="{% url 'dame_tareas_observaciones' 'Contra tipos rosa respecto podía.' %}">Ej. 5 · Texto concreto en observaciones</a></li>
+        <li><a href="{% url 'tarea_completada' 'Completada' 2026 %}">Ej. 6 · Tareas completadas en un rango de años</a></li>
+        <li><a href="{% url 'comentario_proyecto' 1 %}">Ej. 7 · Último usuario en comentar</a></li>
+        <li><a href="{% url 'comentario_especifico' 'Nada' 2026 %}">Ej. 8 · Comentarios de la tarea que empieza por "Nada" en 2026</a></li>
+        <li><a href="{% url 'etiqueta_proyecto' 21 %}">Ej. 9 · Etiquetas del proyecto 21</a></li>
+        <li><a href="{% url 'usuarios_sin_tarea' %}">Ej. 10 · Usuarios sin ninguna tarea asignada</a></li>
+        <li><a href="{% url 'probar_error_400' %}">Error 400</a></li>
+        <li><a href="{% url 'probar_error_403' %}">Error 403</a></li>
+        <li><a href="/esta-pagina-no-existe/">Error 404</a></li>
+        <li><a href="{% url 'probar_error_500' %}">Error 500</a></li>
     </ul>
-</body>
-</html>
+{% endblock %}

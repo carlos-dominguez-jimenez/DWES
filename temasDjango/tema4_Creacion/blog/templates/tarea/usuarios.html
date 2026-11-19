@@ -1,15 +1,13 @@
-<!DOCTYPE html>
-<html lang="es">
-<head><meta charset="UTF-8"><title>Usuarios</title></head>
-<body>
-    <p><a href="{% url 'index' %}">&larr; Inicio</a></p>
-    <h1>Tareas</h1>
-    {% for usuarios in usuario_mostrar %}
-    <div>
-       <p>Nombre: {{usuarios.nombre}}</p>
-    </div>
+{% extends 'estructura/base.html' %}
+
+{% block titulo %}Usuarios de la tarea{% endblock %}
+
+{% block cabecera %}<h1>Usuarios asignados a la tarea</h1>{% endblock %}
+
+{% block contenido %}
+    {% for asignacion in usuarios_mostrar %}
+        {% include 'parciales/asignacion_usuario.html' %}
     {% empty %}
-        <p>No hay usuarios que mostrar.</p>
+        <p class="vacio">No hay usuarios que mostrar.</p>
     {% endfor %}
-</body>
-</html>
+{% endblock %}

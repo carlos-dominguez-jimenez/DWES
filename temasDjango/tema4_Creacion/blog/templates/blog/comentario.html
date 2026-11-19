@@ -1,25 +1,18 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comentarios del Proyecto</title>
-</head>
-<body>
-        <h1>Comentarios del Proyecto</h1>
+{% extends 'estructura/base.html' %}
 
-        <div class="lista-comentarios">
-            {% if comentario %}
-              
-                        <div>
-                            <span>Autor: {{ comentario.autor.nombre }}</span><br>
-                            <!-- Formateamos la fecha -->
-                            <span>Fecha Comentario: {{ comentario.fecha_comentario}}</span>
-                        </div>
+{% block titulo %}Comentarios del Proyecto{% endblock %}
 
-            {% else %}
-                <p class="sin-comentarios">No hay comentarios registrados para este proyecto.</p>
-            {% endif %}
-        </div>
-</body>
-</html>
+{% block cabecera %}<h1>Comentarios del Proyecto</h1>{% endblock %}
+
+{% block contenido %}
+    <div class="lista-comentarios">
+        {% if comentario %}
+            <div class="tarjeta">
+                <span>Autor: {{ comentario.autor.nombre }}</span><br>
+                <span>Fecha comentario: {{ comentario.fecha_comentario|date:"d/m/Y H:i" }}</span>
+            </div>
+        {% else %}
+            <p class="vacio">No hay comentarios registrados para este proyecto.</p>
+        {% endif %}
+    </div>
+{% endblock %}

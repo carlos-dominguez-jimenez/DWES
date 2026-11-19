@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="es">
-<head><meta charset="UTF-8"><title>Error 404</title></head>
-<body>
-    <h1>Error 404</h1>
-    <div>
-        <h2>Página no encontrada</h2>
-        <p>La página a la que intentas acceder no existe.</p>
-        <a href="/">Volver al inicio</a>
-    </div>
-</body>
-</html>
+{% extends 'estructura/base.html' %}
+
+{% block titulo %}Error 404{% endblock %}
+
+{% block cabecera %}<h1>Error 404</h1>{% endblock %}
+
+{% block contenido %}
+    <h2>Página no encontrada</h2>
+    <p>La página a la que intentas acceder no existe.</p>
+    <a href="{% url 'index' %}">Volver al inicio</a>
+{% endblock %}

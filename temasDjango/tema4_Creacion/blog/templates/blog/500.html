@@ -1,16 +1,11 @@
-<!-- 500.html -->
-<!DOCTYPE html>
-<html lang="es">
+{% extends 'estructura/base.html' %}
 
-<head>
-    <meta charset="UTF-8">
-    <title>Error 500</title>
-</head>
+{% block titulo %}Error 500{% endblock %}
 
-<body>
-    <h1>Error 500</h1>
+{% block cabecera %}<h1>Error 500</h1>{% endblock %}
+
+{% block contenido %}
     <h2>Error interno del servidor</h2>
-    <p>Algo ha fallado en el servidor. Inténtalo más tarde.</p><a href="/blog/">Volver al inicio</a>
-</body>
-
-</html>
+    <p>Algo ha fallado en el servidor. Inténtalo más tarde.</p>
+    <a href="{% url 'index' %}">Volver al inicio</a>
+{% endblock %}

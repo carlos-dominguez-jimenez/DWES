@@ -1,17 +1,13 @@
-<!DOCTYPE html>
-<html lang="es">
-<head><meta charset="UTF-8"><title>Usuarios</title></head>
-<body>
-    <p><a href="{% url 'index' %}">&larr; Inicio</a></p>
-    <h1>Usuarios</h1>
+{% extends 'estructura/base.html' %}
+
+{% block titulo %}Usuarios sin tarea{% endblock %}
+
+{% block cabecera %}<h1>Usuarios sin ninguna tarea</h1>{% endblock %}
+
+{% block contenido %}
     {% for usuario in usuarios_mostrar %}
-    <div>
-        <h2>Nombre: {{ usuario.nombre }}</h2>
-        <h3>Correo: {{ usuario.correo_electronico }}</h3>
-        <p>Fecha de registro: {{ usuario.fecha_registro|date:"d/m/Y" }}</p>
-    </div>
+        {% include 'parciales/usuario.html' %}
     {% empty %}
-        <p>No hay usuarios que mostrar.</p>
+        <p class="vacio">No hay usuarios que mostrar.</p>
     {% endfor %}
-</body>
-</html>
+{% endblock %}
