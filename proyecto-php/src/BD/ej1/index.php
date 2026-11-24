@@ -14,6 +14,7 @@
 
     <?php
     require_once 'conexion.php'; // conexión a la base de datos
+    /** @var PDO $conexion */
     $consulta = $conexion->query("SELECT dni, nombre, direccion, telefono FROM cliente");
 
     // Mensaje que llega desde alta, baja o modificar
