@@ -1,12 +1,13 @@
 <?php
 require_once 'conexion.php'; //conexión a la base de datos
+/** @var PDO $conexion */
 
 //Paginacion: 5 artículos por página
 $porPagina = 5;
 $total = $conexion->query("SELECT COUNT(*) FROM articulo")->fetchColumn();
 $totalPaginas = max(1, (int) ceil($total / $porPagina));
 
-$pagina = isset($_GET['pagina']) ? (int) $_GET['pagina']: 1;
+$pagina = isset($_GET['pagina']) ? (int) $_GET['pagina'] : 1;
 if ($pagina < 1) {
     $pagina = 1;
 }
@@ -15,7 +16,7 @@ if ($pagina > $totalPaginas) {
 }
 $inicio = ($pagina - 1) * $porPagina;
 
-$consulta = $conexion->query("SELECT codigo, descripcion, precio_compra, precio_venta, precioventa - precio_compra AS margen, stock FROM articulo ORDER BY codigo LIMIT $inicio, $porPagina");
+$consulta = $conexion->query("SELECT codigo, descripcion, precio_compra, precio_venta, stock FROM articulo ORDER BY codigo LIMIT $inicio, $porPagina");
 ?>
 
 <!DOCTYPE html>
@@ -40,13 +41,12 @@ $consulta = $conexion->query("SELECT codigo, descripcion, precio_compra, precio_
     <!-- Formulario de alta: los campos de la última fila apuntan a él con form="nuevo" -->
     <form id="nuevo" action="alta.php" method="post"></form>
 
-    <table>
+    <table border="1">
         <tr>
             <th>Código</th>
             <th>Descripción</th>
             <th>Precio de compra</th>
             <th>Precio de venta</th>
-            <th>Margen</th>
             <th>Stock</th>
             <th colspan="4"></th>
         </tr>
@@ -56,7 +56,6 @@ $consulta = $conexion->query("SELECT codigo, descripcion, precio_compra, precio_
                 <td><?= htmlspecialchars($articulo->descripcion) ?></td>
                 <td><?= number_format($articulo->precio_compra, 2) ?></td>
                 <td><?= number_format($articulo->precio_venta, 2) ?></td>
-                <td><?= number_format($articulo->margen, 2) ?></td>
                 <td><?= $articulo->stock ?></td>
                 <td>
                     <form class="inline" action="baja.php" method="post"
@@ -109,7 +108,8 @@ $consulta = $conexion->query("SELECT codigo, descripcion, precio_compra, precio_
             <td><input form="nuevo" class="btn verde" type="submit" value="Nuevo artículo"></td>
         </tr>
     </table>
-    <?php $conexion = null; // cerramos la conexión a la BD ?>
+    <?php $conexion = null; // cerramos la conexión a la BD 
+    ?>
 </body>
 
 </html>

@@ -16,7 +16,7 @@ services:
   restart: always
   environment:
    MYSQL_ROOT_PASSWORD: root
-   MYSQL_DATABASE: banco
+   MYSQL_DATABASE: gestisimal
    MYSQL_USER: usuario
    MYSQL_PASSWORD: clave
   ports:

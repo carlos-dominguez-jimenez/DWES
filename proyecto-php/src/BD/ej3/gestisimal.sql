@@ -2,7 +2,7 @@ CREATE DATABASE IF NOT EXISTS gestisimal CHARACTER SET utf8mb4;
 USE gestisimal;
 
 CREATE TABLE IF NOT EXISTS articulo (
-    codigo VARCHAR(10) NOY NULL PRIMARY KEY,
+    codigo VARCHAR(10) NOT NULL PRIMARY KEY,
     descripcion VARCHAR(100) NOT NULL,
     precio_compra DECIMAL(10,2) NOT NULL,
     precio_venta DECIMAL(10,2) NOT NULL,
