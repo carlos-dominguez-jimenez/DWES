@@ -23,7 +23,7 @@ if (isset($_POST['codigo'])) {
 }
 
 $consulta = $conexion->prepare("SELECT codigo, descripcion, precio_compra, precio_venta, stock FROM articulo WHERE codigo = ?");
-$consulta->execute(['codigo']);
+$consulta->execute([$codigo]);
 $articulo = $consulta->fetchObject();
 $conexion = null;
 ?>
