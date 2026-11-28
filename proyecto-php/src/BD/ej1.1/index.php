@@ -58,7 +58,7 @@
                 <td><?= $cliente->telefono ?></td>
                 <td>
                     <a href="modificar.php?dni=<?= $cliente->dni ?>">Modificar</a>
-                    <form action="baja.php" method="post" style="display:inline">
+                    <form action="baja.php" method="post" style="display:inline" onsubmit="return confirm('¿Seguro que quieres borrar al cliente<?=  $cliente->dni ?>?')">
                         <input type="hidden" name="dni" value="<?= $cliente->dni ?>">
                         <input type="submit" value="Borrar">
                     </form>
